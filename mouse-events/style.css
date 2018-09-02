@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+}
+
+section {
+  margin: 100px 20px;
+  width: 100%;
+}
+
+div.letter {
+  width: 90px;
+  height: 200px;
+  display: inline-block;
+  background-color: rgba(0, 0, 255, 0);
+  margin: 10px;
+}
+
+svg {
+  padding: 5px;
+}
+
+line {
+  stroke: #eee;
+  stroke-width: 6;
+}
