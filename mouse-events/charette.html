@@ -4,15 +4,34 @@
     <meta charset="utf-8">
     <title>Charette</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
       <section>
-        <div class="letter" id="I">
+        <div class="charette" id="one">
           <svg height="200" width="90">
-              <line x1="40" y1="0" x2="50" y2="200" />
-              <line x1="50" y1="0" x2="40" y2="200" />
+              <line id="one1" x1="40" y1="0" x2="50" y2="200" />
+              <line id="one2" x1="50" y1="0" x2="40" y2="200" />
+            </svg>
+        </div>
+
+        <div class="charette" id="two">
+          <svg height="200" width="90">
+              <line id="two1" x1="40" y1="0" x2="50" y2="200" />
+              <line id="two2" x1="50" y1="0" x2="40" y2="200" />
+            </svg>
+        </div>
+
+        <div class="charette" id="three">
+          <svg height="200" width="90">
+              <line id="three1" x1="40" y1="0" x2="50" y2="200" />
+              <line id="three2" x1="50" y1="0" x2="40" y2="200" />
             </svg>
         </div>
       </section>
+
+      <script src="jquery.js"></script>
+
   </body>
 </html>

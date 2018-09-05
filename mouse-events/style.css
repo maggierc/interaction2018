@@ -25,3 +25,28 @@ line {
   stroke: #333;
   stroke-width: 4;
 }
+
+div.charette {
+  width: 90px;
+  height: 200px;
+  display: inline-block;
+  background-color: rgba(0, 0, 255, 0);
+  margin: 10px;
+}
+
+div.charette#one line:hover {
+  stroke-width: 10;
+}
+
+div.charette#two line:hover {
+  stroke: red;
+}
+
+/* div.charette#three line {
+  -webkit-transition: transform .5s;
+    transition: transform .5s;
+}
+
+div.charette#three line:active {
+  transform: rotate(360deg);
+} */
