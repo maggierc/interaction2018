@@ -32,6 +32,7 @@ line {
 div.charette {
   width: 90px;
   height: 200px;
+  position: relative;
   display: inline-block;
   background-color: rgba(0, 0, 255, 0);
   margin: 10px;
