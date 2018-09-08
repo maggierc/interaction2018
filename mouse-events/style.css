@@ -12,7 +12,8 @@ section {
 div.letter {
   width: 90px;
   height: 200px;
-  display: inline-block;
+  position: relative;
+  float: left;
   background-color: rgba(0, 0, 255, 0);
   margin: 10px;
 }
@@ -25,6 +26,8 @@ line {
   stroke: #333;
   stroke-width: 4;
 }
+
+/******** CHARETTE STUFF *****/
 
 div.charette {
   width: 90px;
