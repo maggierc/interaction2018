@@ -342,4 +342,184 @@ $(document).ready(function(){
 
   });
 
+  $("#thirtysix").click(function(){
+      $("#thirtyseven").animate({
+        height:'toggle'
+      });
+  });
+
+  $("#thirtyseven").click(function(){
+      $("#thirtysix").animate({
+        width:'toggle'
+      });
+  });
+
+  $("#thirtyeight").click(function(){
+      $("#thirtynine1").animate({
+        opacity:'toggle'
+      });
+  });
+
+  $("#thirtynine").click(function(){
+      $("#thirtyeight2").animate({
+        opacity:'toggle'
+      });
+  });
+
+  $("#forty").click(function(){
+      $("#thirtynine2").animate({
+        opacity:'toggle'
+      });
+      $("#thirtyeight1").animate({
+        opacity:'toggle'
+      });
+  });
+
+  $('#fortyone').click(function(){
+        $("#fortytwo1").css({
+          transform:"rotate(5deg)",
+          transition:"0.2s"
+        });
+        $("#fortytwo2").css({
+          transform:"translate(-20px, -10px)",
+          transition:"0.2s"
+        });
+    });
+
+  $('#fortythree').click(function(){
+        $("#fortytwo1").css({
+          transform:"translate(5px, 70px)",
+          transition:"0.2s"
+        });
+        $("#fortytwo2").css({
+          transform:"rotate(-20deg)",
+          transition:"0.9s"
+        });
+    });
+
+  $('#fortyfour').click(function(){
+        $("#fortytwo1").css({
+          transform:"matrix(1, -0.3, 0, 1, 0, 0)",
+          transition:"0.5s"
+        });
+        $("#fortytwo2").css({
+          transform:"rotate(9deg)",
+          transition:"0.1s"
+        });
+    });
+
+  $('#fortyfive').click(function(){
+        $("#fortytwo1").css({
+          transform:"matrix(0.5, 0, 0, 0.5, 0, 0)",
+          transition:"0.5s"
+        });
+        $("#fortytwo2").css({
+          transform:"matrix(0.5, 0, 0, 0.5, 0, 0)",
+          transition:"0.1s"
+        });
+    });
+
+  $('#fortysix').hover(function(){
+        $("#fortyseven").animate({
+          bottom:"+=10px"
+        });
+        $("#fortyeight").animate({
+          left:"+=2px"
+        });
+        $("#fortynine").animate({
+          top:"+8px"
+        });
+        $("#fifty").animate({
+          right:"+=15px"
+        });
+    });
+
+  $('#fortyseven').hover(function(){
+        $("#fortysix").animate({
+          bottom:"+=5px"
+        });
+        $("#fifty").animate({
+          left:"+=2px"
+        });
+        $("#fortyeight").animate({
+          top:"+8px"
+        });
+        $("#fortynine").animate({
+          right:"+=5px"
+        });
+    });
+
+  $('#fortyeight').hover(function(){
+        $("#fortynine").animate({
+          bottom:"+=5px"
+        });
+        $("#fortyseven").animate({
+          left:"+=2px"
+        });
+        $("#fifty").animate({
+          top:"+8px"
+        });
+        $("#fortysix").animate({
+          right:"+=5px"
+        });
+    });
+
+  $('#fortynine').hover(function(){
+        $("#fifty").animate({
+          bottom:"+=5px"
+        });
+        $("#fortyeight").animate({
+          left:"+=20px"
+        });
+        $("#fortysix").animate({
+          top:"+8px"
+        });
+        $("#fortyseven").animate({
+          right:"+=10px"
+        });
+    });
+
+  $('#fifty').mouseenter(function(){
+        $("#fortynine").css({
+          transform:'rotate(-180deg)',
+          transition:'0.5s'
+        });
+        $("#fortyeight").css({
+          transform:'rotate(180deg)',
+          transition:'0.5s'
+        });
+        $("#fortysix").css({
+          transform:'rotate(180deg)',
+          transition:'0.5s'
+        });
+        $("#fortyseven").css({
+          transform:'rotate(-180deg)',
+          transition:'0.5s'
+        });
+    });
+
+  $('#fifty').mouseleave(function(){
+        $("#fortynine").css({
+          transform:'rotate(0)',
+          transition:'0.5s'
+        });
+        $("#fortyeight").css({
+          transform:'rotate(0)',
+          transition:'0.5s'
+        });
+        $("#fortysix").css({
+          transform:'rotate(0)',
+          transition:'0.5s'
+        });
+        $("#fortyseven").css({
+          transform:'rotate(0)',
+          transition:'0.5s'
+        });
+    });
+
+
+
+
+
+
 });
