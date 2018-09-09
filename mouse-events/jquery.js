@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+  function randoWidth() {
+    var randoW = Math.floor((Math.random() * 90) + 1);
+  }
+
+  function randoHeight() {
+    var randoH = Math.floor((Math.random() * 200) + 1);
+  }
+
+
   $("#two").hover(function(){
       $("#two1").css('stroke', 'red');
       $("#two2").css('stroke', 'red');
@@ -11,12 +20,6 @@ $(document).ready(function(){
       $("#one2").css('stroke-width', '10');
 
   });
-
-  // $("#three").click(function(){
-  //     $("#three1").fadeOut();
-  //     $("#three2").fadeOut();
-  //
-  // });
 
   $("#three").mouseenter(function(){
       $("#three1").css({
@@ -517,6 +520,315 @@ $(document).ready(function(){
         });
     });
 
+  $('#fiftyone').click(function(){
+        $("#fiftyfive1")[0].setAttribute('x2', '40');
+        $("#fiftyfive2")[0].setAttribute('x2', '50');
+    });
+
+  $('#fiftytwo').click(function(){
+        $("#fiftyfour1")[0].setAttribute('x1', '0');
+        $("#fiftyfour1")[0].setAttribute('y1', '90');
+        $("#fiftyfour1")[0].setAttribute('x2', '90');
+        $("#fiftyfour1")[0].setAttribute('y2', '120');
+        $("#fiftyfour2")[0].setAttribute('x1', '0');
+        $("#fiftyfour2")[0].setAttribute('y1', '120');
+        $("#fiftyfour2")[0].setAttribute('x2', '90');
+        $("#fiftyfour2")[0].setAttribute('y2', '90');
+    });
+
+  $('#fiftythree').click(function(){
+        $("#fiftythree1")[0].setAttribute('x1', '0');
+        $("#fiftythree1")[0].setAttribute('y1', '0');
+        $("#fiftythree1")[0].setAttribute('x2', '90');
+        $("#fiftythree1")[0].setAttribute('y2', '200');
+        $("#fiftythree2")[0].setAttribute('x1', '90');
+        $("#fiftythree2")[0].setAttribute('y1', '0');
+        $("#fiftythree2")[0].setAttribute('x2', '0');
+        $("#fiftythree2")[0].setAttribute('y2', '200');
+    });
+
+  $('#fiftyfour').click(function(){
+        $("#fiftytwo1")[0].setAttribute('x1', '0');
+        $("#fiftytwo1")[0].setAttribute('y1', '0');
+        $("#fiftytwo1")[0].setAttribute('x2', '0');
+        $("#fiftytwo1")[0].setAttribute('y2', '200');
+        $("#fiftytwo2")[0].setAttribute('x1', '90');
+        $("#fiftytwo2")[0].setAttribute('y1', '0');
+        $("#fiftytwo2")[0].setAttribute('x2', '90');
+        $("#fiftytwo2")[0].setAttribute('y2', '200');
+    });
+
+  $('#fiftyfive').click(function(){
+        $("#fiftyone1")[0].setAttribute('x1', '20');
+        $("#fiftyone1")[0].setAttribute('y1', '60');
+        $("#fiftyone1")[0].setAttribute('x2', '42');
+        $("#fiftyone1")[0].setAttribute('y2', '128');
+        $("#fiftyone2")[0].setAttribute('x1', '72');
+        $("#fiftyone2")[0].setAttribute('y1', '120');
+        $("#fiftyone2")[0].setAttribute('x2', '19');
+        $("#fiftyone2")[0].setAttribute('y2', '199');
+    });
+
+  $('#fiftysix').hover(function(){
+          $(".row5660").css('box-shadow', '5px 5px #FCE38A');
+      });
+
+  $('#fiftyseven').click(function(){
+          $(".charette").css('background-color', '#95E1D3');
+      });
+
+  $('#fiftyeight').click(function(){
+          $(".charette").css('box-shadow', '5px 5px #F38181');
+      });
+
+  $('#fiftynine').click(function(){
+          $(".row5660").css('background-color', '#EAFFD0');
+      });
+
+  $('#sixty').click(function(){
+          $(".charette").css({
+              backgroundColor:'none',
+              boxShadow:'none'
+          });
+      });
+
+  $('#sixtyone').click(function(){
+          $("#sixtyone1").css({
+              transform:'translate(10px,20px)',
+              transition:'0.4s'
+          });
+          $("#sixtytwo1").css({
+              transform:'translate(10px,20px)',
+              transition:'0.4s'
+          });
+          $("#sixtythree1").css({
+              transform:'translate(10px,20px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfour1").css({
+              transform:'translate(10px,20px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfive1").css({
+              transform:'translate(10px,20px)',
+              transition:'0.4s'
+          });
+      });
+
+  $('#sixtytwo').click(function(){
+          $("#sixtyone2").css({
+              transform:'translate(10px,20px)',
+              transition:'0.4s'
+          });
+          $("#sixtytwo2").css({
+              transform:'translate(-10px,20px)',
+              transition:'0.4s'
+          });
+          $("#sixtythree2").css({
+              transform:'translate(10px,20px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfour2").css({
+              transform:'translate(-10px,20px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfive2").css({
+              transform:'translate(10px,20px)',
+              transition:'0.4s'
+          });
+      });
+
+  $('#sixtythree').click(function(){
+          $("#sixtyone1").css({
+              transform:'translate(-5px,5px)',
+              transition:'0.4s'
+          });
+          $("#sixtytwo1").css({
+              transform:'translate(30px,10px)',
+              transition:'0.4s'
+          });
+          $("#sixtythree1").css({
+              transform:'translate(-5px,5px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfour1").css({
+              transform:'translate(30px,10px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfive1").css({
+              transform:'translate(-5px,5px)',
+              transition:'0.4s'
+          });
+      });
+
+  $('#sixtyfour').click(function(){
+          $("#sixtyone2").css({
+              transform:'translate(15px,25px)',
+              transition:'0.4s'
+          });
+          $("#sixtytwo2").css({
+              transform:'translate(3px,-10px)',
+              transition:'0.4s'
+          });
+          $("#sixtythree2").css({
+              transform:'translate(15px,25px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfour2").css({
+              transform:'translate(3px,-10px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfive2").css({
+              transform:'translate(15px,25px)',
+              transition:'0.4s'
+          });
+      });
+
+  $('#sixtyfive').click(function(){
+          $("#sixtyone1").css({
+              transform:'translate(35px,25px)',
+              transition:'0.4s'
+          });
+          $("#sixtytwo1").css({
+              transform:'translate(-25px,-15px)',
+              transition:'0.4s'
+          });
+          $("#sixtythree1").css({
+              transform:'translate(35px,25px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfour1").css({
+              transform:'translate(-25px,-15px)',
+              transition:'0.4s'
+          });
+          $("#sixtyfive1").css({
+              transform:'translate(35px,25px)',
+              transition:'0.4s'
+          });
+      });
+
+  $('#sixtysix').click(function(){
+          $("#sixtysix").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+          $("#sixtyseven").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+          $("#sixtyeight").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+          $("#sixtynine").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+          $("#seventy").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+      });
+
+  $('#sixtyseven').click(function(){
+          $("#sixtysix1").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+          $("#sixtyseven1").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+          $("#sixtyeight1").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+          $("#sixtynine1").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+          $("#seventy1").css({
+              transform:'scale(1.5)',
+              transition:'0.2s'
+          });
+      });
+
+  $('#sixtyeight').click(function(){
+          $("#sixtysix2").css({
+              transform:'scale(0.5)',
+              transition:'0.2s'
+          });
+          $("#sixtyseven2").css({
+              transform:'scale(0.5)',
+              transition:'0.2s'
+          });
+          $("#sixtyeight2").css({
+              transform:'scale(0.5)',
+              transition:'0.2s'
+          });
+          $("#sixtynine2").css({
+              transform:'scale(0.5)',
+              transition:'0.2s'
+          });
+          $("#seventy2").css({
+              transform:'scale(0.5)',
+              transition:'0.2s'
+          });
+      });
+
+  $('#sixtynine').click(function(){
+          $("#sixtysix").css({
+              transform:'scale(4)',
+              transition:'3s'
+          });
+          $("#sixtyseven").css({
+              transform:'scale(4)',
+              transition:'3s'
+          });
+          $("#sixtyeight").css({
+              transform:'scale(4)',
+              transition:'3s'
+          });
+          $("#sixtynine").css({
+              transform:'scale(4)',
+              transition:'3s'
+          });
+          $("#seventy").css({
+              transform:'scale(4)',
+              transition:'3s'
+          });
+      });
+
+  $('#seventy').click(function(){
+          $("#sixtysix1").css({
+              transform:'scale(0.1)',
+              transition:'0.25s'
+          });
+          $("#sixtyseven1").css({
+              transform:'scale(0.1)',
+              transition:'0.5s'
+          });
+          $("#sixtyeight1").css({
+              transform:'scale(0.1)',
+              transition:'0.75s'
+          });
+          $("#sixtynine1").css({
+              transform:'scale(0.1)',
+              transition:'1s'
+          });
+          $("#seventy1").css({
+              transform:'scale(0.1)',
+              transition:'1.25s'
+          });
+      });
+
+
+
+  // $('#fiftysix').hover(function(){
+  //         $(".charette").animate({
+  //           opacity:'toggle'
+  //           });
+  //     });
 
 
 
