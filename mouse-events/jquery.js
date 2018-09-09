@@ -822,7 +822,125 @@ $(document).ready(function(){
           });
       });
 
+  $('#seventyone').click(function(){
+        $("#seventyone1")[0].setAttribute('x1', '0');
+        $("#seventyone1")[0].setAttribute('y1', '100');
+        $("#seventyone1")[0].setAttribute('x2', '90');
+        $("#seventyone1")[0].setAttribute('y2', '100');
+        $("#seventytwo1")[0].setAttribute('x1', '0');
+        $("#seventytwo1")[0].setAttribute('y1', '100');
+        $("#seventytwo1")[0].setAttribute('x2', '90');
+        $("#seventytwo1")[0].setAttribute('y2', '100');
+        $("#seventythree1")[0].setAttribute('x1', '0');
+        $("#seventythree1")[0].setAttribute('y1', '100');
+        $("#seventythree1")[0].setAttribute('x2', '90');
+        $("#seventythree1")[0].setAttribute('y2', '100');
+        $("#seventyfour1")[0].setAttribute('x1', '0');
+        $("#seventyfour1")[0].setAttribute('y1', '100');
+        $("#seventyfour1")[0].setAttribute('x2', '90');
+        $("#seventyfour1")[0].setAttribute('y2', '100');
+        $("#seventyfive1")[0].setAttribute('x1', '0');
+        $("#seventyfive1")[0].setAttribute('y1', '100');
+        $("#seventyfive1")[0].setAttribute('x2', '90');
+        $("#seventyfive1")[0].setAttribute('y2', '100');
 
+        $("#seventyone2")[0].setAttribute('x1', '0');
+        $("#seventyone2")[0].setAttribute('y1', '110');
+        $("#seventyone2")[0].setAttribute('x2', '90');
+        $("#seventyone2")[0].setAttribute('y2', '110');
+        $("#seventytwo2")[0].setAttribute('x1', '0');
+        $("#seventytwo2")[0].setAttribute('y1', '110');
+        $("#seventytwo2")[0].setAttribute('x2', '90');
+        $("#seventytwo2")[0].setAttribute('y2', '110');
+        $("#seventythree2")[0].setAttribute('x1', '0');
+        $("#seventythree2")[0].setAttribute('y1', '110');
+        $("#seventythree2")[0].setAttribute('x2', '90');
+        $("#seventythree2")[0].setAttribute('y2', '110');
+        $("#seventyfour2")[0].setAttribute('x1', '0');
+        $("#seventyfour2")[0].setAttribute('y1', '110');
+        $("#seventyfour2")[0].setAttribute('x2', '90');
+        $("#seventyfour2")[0].setAttribute('y2', '110');
+        $("#seventyfive2")[0].setAttribute('x1', '0');
+        $("#seventyfive2")[0].setAttribute('y1', '110');
+        $("#seventyfive2")[0].setAttribute('x2', '90');
+        $("#seventyfive2")[0].setAttribute('y2', '110');
+    });
+
+  $('#seventytwo').click(function(){
+        $('.row7075').css({
+          transform:'scale(1.3)',
+          transition:'0.1s'
+        })
+  });
+
+  $('#seventythree').click(function(){
+        $('#seventyone').css({
+          transform:'translateY(20px)',
+          transition:'0.3s'
+        })
+        $('#seventytwo').css({
+          transform:'translateY(-20px)',
+          transition:'0.5s'
+        })
+        $('#seventythree').css({
+          transform:'translateY(20px)',
+          transition:'0.3s'
+        })
+        $('#seventyfour').css({
+          transform:'translateY(-20px)',
+          transition:'0.5s'
+        })
+        $('#seventyfive').css({
+          transform:'translateY(20px)',
+          transition:'0.3s'
+        })
+    });
+
+  $('#seventyfour').click(function(){
+        $('#seventyone').css({
+          transform:'translate(230px, 50px)',
+          transition:'0.3s'
+        })
+        $('#seventytwo').css({
+          transform:'translate(115px, 25px)',
+          transition:'0.4s'
+        })
+        $('#seventythree').css({
+          transform:'translate(0, 0)',
+          transition:'0.3s'
+        })
+        $('#seventyfour').css({
+          transform:'translate(-115px, -25px)',
+          transition:'0.4s'
+        })
+        $('#seventyfive').css({
+          transform:'translate(-230px, -50px)',
+          transition:'0.3s'
+        })
+    });
+
+    $('#seventyfive').click(function(){
+          $('#seventyone').css({
+            transform:'translate(230px, 100px)',
+            transition:'0.4s'
+          })
+          $('#seventytwo').css({
+            transform:'translate(115px, 50px)',
+            transition:'0.5s'
+          })
+          $('#seventythree').css({
+            transform:'translate(0, 0)',
+            transition:'0.4s'
+          })
+          $('#seventyfour').css({
+            transform:'translate(-115px, -50px)',
+            transition:'0.5s'
+          })
+          $('#seventyfive').css({
+            transform:'translate(-230px, -100px)',
+            transition:'0.4s'
+          })
+      });
 
   // $('#fiftysix').hover(function(){
   //         $(".charette").animate({
