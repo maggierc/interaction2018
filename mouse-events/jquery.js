@@ -220,11 +220,11 @@ $(document).ready(function(){
   $("#twenty").mouseenter(function(){
     $("#twenty1").css({
       transform:"rotate(180deg)",
-      transition:"3s"
+      transition:"0.3s"
     });
     $("#twenty2").css({
       transform:"rotate(-180deg)",
-      transition:"3s"
+      transition:"0.3s"
     });
   });
 
@@ -234,9 +234,61 @@ $(document).ready(function(){
       transition:"0.3s"
     });
     $("#twenty2").css({
-      transform:"rotate(0)",
+      transform:"rotate(18deg)",
       transition:"0.3s"
     });
   });
+
+  $('#twentyone').mouseenter(function(){
+        $("#twentyone").animate({
+          opacity:"0"
+        }, "fast");
+        $("#twentyone").animate({
+          left:'100px'
+        }, "fast");
+        $("#twentyone").animate({
+          opacity:"1"
+        }, "fast");
+    });
+
+  $('#twentytwo').hover(function(){
+        $(".try").animate({
+          opacity:"0.5"
+        }, "fast");
+        $("#twentytwo").animate({
+          left:'100px'
+        }, "fast");
+        $("#twentythree").animate({
+          right:'100px'
+        }, "fast");
+        $(".try").animate({
+          opacity:"1"
+        }, "fast");
+    });
+
+  $("#twentyfour").mouseenter(function(){
+      $("#twentyfour1").css('stroke-dasharray', '5,2');
+      $("#twentyfour2").css('stroke-dasharray', '5,2');
+  });
+
+  $("#twentyfour").mouseleave(function(){
+      $("#twentyfour1").css('stroke-dasharray', 'none');
+      $("#twentyfour2").css('stroke-dasharray', 'none');
+  });
+
+  $("#twentyfive").mouseenter(function(){
+      $("#twentyfive").css({
+          transform:"rotateY(180deg)",
+          transition:"0.3s"
+          });
+  });
+
+  $("#twentyfive").mouseleave(function(){
+      $("#twentyfive").css({
+          transform:"rotateY(0)",
+          transition:"0.3s"
+          });
+  });
+
 
 });
