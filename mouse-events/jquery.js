@@ -288,7 +288,58 @@ $(document).ready(function(){
           transform:"rotateY(0)",
           transition:"0.3s"
           });
+        });
+
+  $('#twentysix').mouseenter(function(){
+    $("#twentysix").css({
+        transform:"translateX(2000px)",
+        transition:"0.3s"
+        });
+    $("#twentyseven").css({
+        transform:"translateX(2000px)",
+        transition:"0.8s"
+        });
+    $("#twentyeight").css({
+        transform:"translateX(2000px)",
+        transition:"1s"
+        });
+    $("#twentynine").css({
+        transform:"translateX(2000px)",
+        transition:"1.3s"
+        });
+    $("#thirty").css({
+        transform:"translateX(2000px)",
+        transition:"3s"
+        });
+      });
+
+  $("#thirtyone").click(function(){
+      $("#thirtyone1").css('animation-play-state', 'running');
+      $("#thirtyone2").css('animation-play-state', 'running');
   });
 
+  $("#thirtytwo").hover(function(){
+      $("#thirtytwo").animate({bottom:"+=20px"});
+  });
+
+  $("#thirtythree").click(function(){
+      $("#thirtytwo").animate({bottom:"0"});
+  });
+
+  $("#thirtyfour").click(function(){
+      $("#thirtyfour1").animate({strokeWidth:"10"}, "fast");
+      $("#thirtyfour2").animate({strokeWidth:"10"}, "fast");
+      $("#thirtyfour1").css({transform:"translateX(10px)"});
+
+
+  });
+
+  $("#thirtyfive").click(function(){
+      $("#thirtyfive").animate({bottom:"+=30px"}, "slow");
+      $("#thirtyfive").animate({left:"+=10px"}, "slow");
+      $("#thirtyfive").animate({top:"+=20px"}, "fast");
+      $("#thirtyfive").animate({right:"+=50px"}, "fast");
+
+  });
 
 });

@@ -46,6 +46,27 @@ div.charette#two line:hover {
   stroke: red;
 }
 
+#thirtyone1 {
+  animation: moveLeft 0.2s ease-in 5;
+  animation-play-state: paused;
+}
+
+#thirtyone2 {
+  animation: moveRight 0.2s ease-in 5;
+  animation-play-state: paused;
+}
+
+@keyframes moveLeft {
+  0% {transform: translateX(0);}
+  50% {transform: translateX(-20px);}
+  100% {transform: translateX(0);}
+}
+
+@keyframes moveRight {
+  0% {transform: translateX(0);}
+  50% {transform: translateX(20px);}
+  100% {transform: translateX(0);}
+}
 /* div.charette#three line {
   -webkit-transition: transform .5s;
     transition: transform .5s;
