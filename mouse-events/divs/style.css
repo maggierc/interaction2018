@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #0f0766;
+}
+
+section {
+  margin: 100px 40px;
+  width: 100%;
+}
+
+div {
+  transition: 0.5s;
+}
+
+line {
+  stroke: #ab0e86;
+  stroke-width: 3;
+}
+
+.letter {
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  width: 90px;
+  margin: 20px;
+  /* background-color: #ddd; */
+  padding: 20px;
+}
+
+.vertL {
+  height: 200px;
+  width: 5px;
+  transform: rotate(-4deg);
+  position: absolute;
+  background-color: white;
+
+}
+
+.vertR {
+  height: 200px;
+  width: 5px;
+  transform: rotate(4deg);
+  position: absolute;
+  background-color: white;
+
+}
+
+.rightSide {
+  margin-left: 80px;
+}
+
+.horzT {
+  height: 5px;
+  margin-left: 5px;
+  width: 75px;
+  transform: rotate(-4deg);
+  position: absolute;
+  background-color: white;
+
+}
+
+.horzB {
+  height: 5px;
+  margin-left: 5px;
+  width: 75px;
+  transform: rotate(4deg);
+  position: absolute;
+  background-color: white;
+
+}
+
+.diagL {
+  height: 200px;
+  width: 5px;
+  transform: rotate(-26deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 40px;
+}
+
+.diagR {
+  height: 200px;
+  width: 5px;
+  transform: rotate(-19deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 40px;
+}
+
+.diagLrev {
+  height: 200px;
+  width: 5px;
+  transform: rotate(26deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 40px;
+}
+
+.diagRrev {
+  height: 200px;
+  width: 5px;
+  transform: rotate(19deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 40px;
+}
+
+.bottomSide {
+  margin-top: 195px;
+}
+
+.Hmiddle {
+  margin-top: 95px;
+  margin-left: 5px;
+  width: 75px;
+}
+
+.Vmiddle {
+  margin-left: 40px;
+}
+
+.Vshort {
+  height: 95px;
+}
+
+.VshortB {
+  height: 95px;
+  margin-top: 100px;
+}

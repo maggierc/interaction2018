@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mouse Events: DIV</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="letter" id="I">
+        <div class="vertL linesI"></div>
+        <div class="vertR linesI"></div>
+      </div>
+      <div class="letter" id="O">
+        <div class="vertL Oalt rotateAnimate2"></div>
+        <div class="vertR Oog rotateAnimate1"></div>
+        <div class="vertL rightSide Oalt rotateAnimate2"></div>
+        <div class="vertR rightSide Oog rotateAnimate1"></div>
+        <div class="horzT Oalt rotateAnimate2"></div>
+        <div class="horzB Oog rotateAnimate1"></div>
+        <div class="horzT bottomSide Oalt rotateAnimate2"></div>
+        <div class="horzB bottomSide Oog rotateAnimate1"></div>
+        <div class="vertL OSlow1 rotateAnimateSlow1"></div>
+        <div class="vertR OSlow2 rotateAnimateSlow2"></div>
+        <div class="vertL rightSide OSlow1 rotateAnimateSlow1"></div>
+        <div class="vertR rightSide OSlow2 rotateAnimateSlow2"></div>
+        <div class="horzT OSlow1 rotateAnimateSlow1"></div>
+        <div class="horzB OSlow2 rotateAnimateSlow2"></div>
+        <div class="horzT bottomSide OSlow1 rotateAnimateSlow1"></div>
+        <div class="horzB bottomSide OSlow2 rotateAnimateSlow2"></div>
+      </div>
+
+      <div class="letter">
+        <svg height="500" width="500">
+            <line class="rotateAnimate1" x1="40" y1="50" x2="50" y2="40" />
+            <line class="rotateAnimate2" x1="40" y1="0" x2="50" y2="200" />
+          </svg>
+      </div>
+
+    </section>
+
+
+      <script src="script.js"></script>
+  </body>
+</html>

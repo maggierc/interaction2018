@@ -1,0 +1,135 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #0f0766;
+}
+
+section {
+  margin: 100px 40px;
+  width: 100%;
+}
+
+div {
+  transition: 0.5s;
+}
+
+line {
+  stroke: #ab0e86;
+  stroke-width: 3;
+}
+
+.letter {
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  width: 90px;
+  margin: 20px;
+  /* background-color: #ddd; */
+  padding: 20px;
+}
+
+.vertL {
+  height: 200px;
+  width: 5px;
+  background-color: #59057b;
+  transform: rotate(-2.5deg);
+  position: absolute;
+}
+
+.vertR {
+  height: 200px;
+  width: 5px;
+  background-color: #59057b;
+  transform: rotate(2.5deg);
+  position: absolute;
+}
+
+.rightSide {
+  margin-left: 80px;
+}
+
+.horzT {
+  height: 5px;
+  width: 90px;
+  background-color: #59057b;
+  transform: rotate(-2.5deg);
+  position: absolute;
+}
+
+.horzB {
+  height: 5px;
+  width: 90px;
+  background-color: #59057b;
+  transform: rotate(2.5deg);
+  position: absolute;
+}
+
+.bottomSide {
+  margin-top: 195px;
+}
+
+div#I div {
+  margin-left: 40px;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+}
+
+.whoosh {
+  width: 200px;
+  opacity: 0.5;
+  background-color: #ab0e86;
+}
+
+.rotateAnimate1 {
+  animation-name: theAnimation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.rotateAnimate2 {
+  animation-name: theAnimation;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-in-out;
+}
+
+.rotateAnimateSlow1 {
+  background-color: #ab0e86;
+  animation-name: theAnimationSlow;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.rotateAnimateSlow2 {
+  background-color: #ab0e86;
+
+  animation-name: theAnimationSlow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes theAnimation {
+  0% {transform:rotate(0deg);}
+  25% {transform:rotate(360deg);}
+  50% {transform:rotate(0deg);}
+  100% {transform:rotate(-360deg);}
+
+}
+
+@keyframes theAnimationSlow {
+  0% {transform:rotate(0deg);}
+  25% {transform:rotate(360deg);}
+  50% {transform:rotate(0deg);}
+  100% {transform:rotate(-360deg);}
+
+}
