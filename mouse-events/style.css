@@ -27,6 +27,17 @@ line {
   stroke-width: 4;
 }
 
+h1 {
+  padding: 0 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  padding: 0 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+
 /******** CHARETTE STUFF *****/
 
 div.charette {
