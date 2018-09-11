@@ -24,7 +24,6 @@ line {
   height: 200px;
   width: 90px;
   margin: 20px;
-  /* background-color: #ddd; */
   padding: 20px;
 }
 
@@ -127,4 +126,91 @@ line {
 .VshortB {
   height: 95px;
   margin-top: 100px;
+}
+
+#D-topL {
+  height: 110px;
+  width: 5px;
+  transform: rotate(-36deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 40px;
+}
+
+#D-topR {
+  height: 110px;
+  width: 5px;
+  transform: rotate(-29deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 40px;
+}
+
+#D-bottomL {
+  height: 110px;
+  width: 5px;
+  transform: rotate(36deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 40px;
+  margin-top: 90px;
+}
+
+#D-bottomR {
+  height: 110px;
+  width: 5px;
+  transform: rotate(29deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 40px;
+  margin-top: 90px;
+
+}
+
+.G-bar {
+  width: 40px;
+  margin-left: 40px;
+}
+
+.K-bar {
+  width: 30px;
+  margin-top: 95px;
+}
+
+#K-topL {
+  height: 100px;
+  width: 5px;
+  transform: rotate(25deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 50px;
+}
+
+#K-topR {
+  height: 100px;
+  width: 5px;
+  transform: rotate(18deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 50px;
+}
+
+#K-bottomL {
+  height: 100px;
+  width: 5px;
+  transform: rotate(-25deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 95px;
+}
+
+#K-bottomR {
+  height: 100px;
+  width: 5px;
+  transform: rotate(-18deg);
+  position: absolute;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 95px;
 }
