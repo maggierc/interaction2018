@@ -1,7 +1,7 @@
 body  {
   padding: 0;
   margin: 0;
-  background-color: #eee;
+  background-color: #1a0841;
 }
 
 section {
@@ -27,16 +27,30 @@ line {
   width: 90px;
   margin: 50px 75px;
   padding: 20px;
-  transform: scale(0.5);
+  transform: scale(0.4);
+}
+
+.scaler {
+  transform: scale(0.4);
+}
+
+#C .scaler {
+  transform: scale(0.2);
 }
 
 #A, #E, #I, #O, #U {
+  transform: scale(0.9);
+}
+
+#M, #R, #C {
+  transform: scale(0.2);
+}
+
+#Z, #Q, #L, #G {
   transform: scale(0.7);
 }
 
 #A div div, #E div div, #I div div, #O div div, #U div div {
-  transform: scale(0.7);
-
 }
 
 .letter div div {

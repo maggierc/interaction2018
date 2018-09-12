@@ -71,7 +71,7 @@
 /***************** Movement Animations ******************/
 
 #movementHTML .rotateAnimate1 {
-  background-color: red;
+  background-color: #7971ea;
 
   animation-name: theAnimation;
   animation-duration: 15s;
@@ -80,7 +80,7 @@
 }
 
 #movementHTML .rotateAnimate2 {
-  background-color: pink;
+  background-color: #7971ea;
 
   animation-name: theAnimation;
   animation-duration: 20s;
@@ -90,7 +90,7 @@
 }
 
 #movementHTML .rotateAnimateSlow1 {
-  background-color: blue;
+  background-color: #7971ea;
   animation-name: theAnimationSlow;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -98,11 +98,60 @@
 }
 
 #movementHTML .rotateAnimateSlow2 {
-  background-color: orange;
+  background-color: #7971ea;
 
   animation-name: theAnimationSlow;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: ease-in-out;
+}
+
+#movementHTML .move1 {
+  animation-name: move1;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#movementHTML .move2 {
+  animation-name: move2;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#movementHTML .move3 {
+  animation-name: move3;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#movementHTML .pause {
+  animation-play-state: paused;
+}
+
+@keyframes move1 {
+  0% {transform:matrix(0.4,0,0,0.4,0,0);}
+  20% {transform:matrix(0.5,0,0,0.5,100,-70);}
+  40% {transform:matrix(1,0,0,1,150,-10);}
+  60% {transform:matrix(0.3,0,0,0.3,30,270);}
+  80% {transform:matrix(0.7,0,0,0.7,800,150);}
+  100% {transform:matrix(0.4,0,0,0.4,0,0);}
+}
+
+@keyframes move2 {
+  0% {transform:translate(0);}
+  20% {transform:translate(0px, 70px);}
+  60% {transform:translate(300px, -50px);}
+  80% {transform:translate(100px, 50px);}
+  100% {transform:translate(0);}
+}
+
+@keyframes move3 {
+  0% {transform:translate(0);}
+  35% {transform:translate(400px, 300px);}
+  65% {transform:translate(-350px, -50px);}
+  100% {transform:translate(0);}
 }
