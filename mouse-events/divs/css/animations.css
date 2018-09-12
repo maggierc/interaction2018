@@ -1,6 +1,8 @@
 /***************** Animations ******************/
 
 .rotateAnimate1 {
+  background-color: #1d0c5b;
+
   animation-name: theAnimation;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -8,6 +10,8 @@
 }
 
 .rotateAnimate2 {
+  background-color: #1d0c5b;
+
   animation-name: theAnimation;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -16,7 +20,7 @@
 }
 
 .rotateAnimateSlow1 {
-  background-color: #ab0e86;
+  background-color: #1d0c5b;
   animation-name: theAnimationSlow;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -24,7 +28,7 @@
 }
 
 .rotateAnimateSlow2 {
-  background-color: #ab0e86;
+  background-color: #1d0c5b;
 
   animation-name: theAnimationSlow;
   animation-duration: 10s;

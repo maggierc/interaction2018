@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #0f0766;
+  background-color: #05092d;
 }
 
 section {
@@ -29,12 +29,16 @@ line {
   padding: 20px;
 }
 
+/* .letter div div {
+  background-color: #7c38a0;
+} */
+
 .vertL {
   height: 200px;
   width: 5px;
   transform: rotate(-4deg);
   position: absolute;
-  background-color: white;
+
 
 }
 
@@ -43,7 +47,7 @@ line {
   width: 5px;
   transform: rotate(4deg);
   position: absolute;
-  background-color: white;
+
 
 }
 
@@ -57,7 +61,7 @@ line {
   width: 75px;
   transform: rotate(-4deg);
   position: absolute;
-  background-color: white;
+
 
 }
 
@@ -67,7 +71,7 @@ line {
   width: 75px;
   transform: rotate(4deg);
   position: absolute;
-  background-color: white;
+
 
 }
 
@@ -76,7 +80,7 @@ line {
   width: 5px;
   transform: rotate(-26deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 40px;
 }
 
@@ -85,7 +89,7 @@ line {
   width: 5px;
   transform: rotate(-19deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 40px;
 }
 
@@ -94,7 +98,7 @@ line {
   width: 5px;
   transform: rotate(26deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 40px;
 }
 
@@ -103,7 +107,7 @@ line {
   width: 5px;
   transform: rotate(19deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 40px;
 }
 
@@ -137,7 +141,7 @@ line {
   width: 5px;
   transform: rotate(-36deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 40px;
 }
 
@@ -146,7 +150,7 @@ line {
   width: 5px;
   transform: rotate(-29deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 40px;
 }
 
@@ -155,7 +159,7 @@ line {
   width: 5px;
   transform: rotate(36deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 40px;
   margin-top: 90px;
 }
@@ -165,7 +169,7 @@ line {
   width: 5px;
   transform: rotate(29deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 40px;
   margin-top: 90px;
 
@@ -186,7 +190,7 @@ line {
   width: 5px;
   transform: rotate(25deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 50px;
 }
 
@@ -195,7 +199,7 @@ line {
   width: 5px;
   transform: rotate(18deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 50px;
 }
 
@@ -204,7 +208,7 @@ line {
   width: 5px;
   transform: rotate(-25deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 50px;
   margin-top: 95px;
 }
@@ -214,7 +218,7 @@ line {
   width: 5px;
   transform: rotate(-18deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 50px;
   margin-top: 95px;
 }
@@ -224,7 +228,7 @@ line {
   width: 5px;
   transform: rotate(-25deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 20px;
 }
 
@@ -233,7 +237,7 @@ line {
   width: 5px;
   transform: rotate(-18deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 20px;
 }
 
@@ -242,7 +246,7 @@ line {
   width: 5px;
   transform: rotate(25deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 60px;
 }
 
@@ -251,7 +255,7 @@ line {
   width: 5px;
   transform: rotate(18deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 60px;
 }
 
@@ -260,7 +264,7 @@ line {
   width: 5px;
   transform: rotate(-26deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 65px;
   margin-top: 120px;
 }
@@ -270,7 +274,7 @@ line {
   width: 5px;
   transform: rotate(-19deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 65px;
   margin-top: 120px;
 
@@ -281,7 +285,7 @@ line {
   width: 5px;
   transform: rotate(-26deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 65px;
   margin-top: 95px;
 }
@@ -291,7 +295,7 @@ line {
   width: 5px;
   transform: rotate(-19deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 65px;
   margin-top: 95px;
 }
@@ -301,7 +305,7 @@ line {
   width: 5px;
   transform: rotate(-17deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 20px;
 }
 
@@ -310,7 +314,7 @@ line {
   width: 5px;
   transform: rotate(-10deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 20px;
 }
 
@@ -319,7 +323,7 @@ line {
   width: 5px;
   transform: rotate(17deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 70px;
 }
 
@@ -328,7 +332,7 @@ line {
   width: 5px;
   transform: rotate(10deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 70px;
 }
 
@@ -337,7 +341,7 @@ line {
   width: 5px;
   transform: rotate(25deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 20px;
   margin-top: 100px;
 }
@@ -347,7 +351,7 @@ line {
   width: 5px;
   transform: rotate(18deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 20px;
   margin-top: 100px;
 }
@@ -357,7 +361,7 @@ line {
   width: 5px;
   transform: rotate(-25deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 60px;
   margin-top: 100px;
 }
@@ -367,7 +371,7 @@ line {
   width: 5px;
   transform: rotate(-18deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 60px;
   margin-top: 100px;
 }
@@ -377,7 +381,7 @@ line {
   width: 5px;
   transform: rotate(-25deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 20px;
 }
 
@@ -386,7 +390,7 @@ line {
   width: 5px;
   transform: rotate(-18deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 20px;
 }
 
@@ -395,7 +399,7 @@ line {
   width: 5px;
   transform: rotate(25deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 60px;
 }
 
@@ -404,6 +408,6 @@ line {
   width: 5px;
   transform: rotate(18deg);
   position: absolute;
-  background-color: white;
+
   margin-left: 60px;
 }
