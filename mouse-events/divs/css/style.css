@@ -29,9 +29,9 @@ line {
   padding: 20px;
 }
 
-/* .letter div div {
-  background-color: #7c38a0;
-} */
+.letter div div {
+  border-radius: 50px;
+}
 
 .vertL {
   height: 200px;
