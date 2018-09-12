@@ -67,3 +67,42 @@
   50% {transform:rotate(0deg);}
   100% {transform:rotate(-360deg);}
 }
+
+/***************** Movement Animations ******************/
+
+#movementHTML .rotateAnimate1 {
+  background-color: red;
+
+  animation-name: theAnimation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#movementHTML .rotateAnimate2 {
+  background-color: pink;
+
+  animation-name: theAnimation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+
+#movementHTML .rotateAnimateSlow1 {
+  background-color: blue;
+  animation-name: theAnimationSlow;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#movementHTML .rotateAnimateSlow2 {
+  background-color: orange;
+
+  animation-name: theAnimationSlow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-in-out;
+}

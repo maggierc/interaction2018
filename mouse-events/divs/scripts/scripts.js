@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $("#A").hover(function(){
+  $("#A").click(function(){
     $("div#A .type1").toggleClass("rotateAnimate1");
     $("div#A .type2").toggleClass("rotateAnimate2");
     $("div#A .type3").toggleClass("rotateAnimateSlow1");
@@ -8,7 +8,7 @@ $(document).ready(function(){
     $("div#A div").css('background-color', '#7c38a0');
   });
 
-  $("#B").hover(function(){
+  $("#B").click(function(){
     $("div#B .type1").toggleClass("rotateAnimate1");
     $("div#B .type2").toggleClass("rotateAnimate2");
     $("div#B .type3").toggleClass("rotateAnimateSlow1");
@@ -16,7 +16,7 @@ $(document).ready(function(){
     $("div#B div").css('background-color', '#7c38a0');
   });
 
-  $("#C").hover(function(){
+  $("#C").click(function(){
     $("div#C .type1").toggleClass("rotateAnimate1");
     $("div#C .type2").toggleClass("rotateAnimate2");
     $("div#C .type3").toggleClass("rotateAnimateSlow1");
@@ -24,7 +24,7 @@ $(document).ready(function(){
     $("div#C div").css('background-color', '#7c38a0');
   });
 
-  $("#D").hover(function(){
+  $("#D").click(function(){
     $("div#D .type1").toggleClass("rotateAnimate1");
     $("div#D .type2").toggleClass("rotateAnimate2");
     $("div#D .type3").toggleClass("rotateAnimateSlow1");
@@ -32,7 +32,7 @@ $(document).ready(function(){
     $("div#D div").css('background-color', '#7c38a0');
   });
 
-  $("#E").hover(function(){
+  $("#E").click(function(){
     $("div#E .type1").toggleClass("rotateAnimate1");
     $("div#E .type2").toggleClass("rotateAnimate2");
     $("div#E .type3").toggleClass("rotateAnimateSlow1");
@@ -40,7 +40,7 @@ $(document).ready(function(){
     $("div#E div").css('background-color', '#7c38a0');
   });
 
-  $("#F").hover(function(){
+  $("#F").click(function(){
     $("div#F .type1").toggleClass("rotateAnimate1");
     $("div#F .type2").toggleClass("rotateAnimate2");
     $("div#F .type3").toggleClass("rotateAnimateSlow1");
@@ -48,7 +48,7 @@ $(document).ready(function(){
     $("div#F div").css('background-color', '#7c38a0');
   });
 
-  $("#G").hover(function(){
+  $("#G").click(function(){
     $("div#G .type1").toggleClass("rotateAnimate1");
     $("div#G .type2").toggleClass("rotateAnimate2");
     $("div#G .type3").toggleClass("rotateAnimateSlow1");
@@ -56,7 +56,7 @@ $(document).ready(function(){
     $("div#G div").css('background-color', '#7c38a0');
   });
 
-  $("#H").hover(function(){
+  $("#H").click(function(){
     $("div#H .type1").toggleClass("rotateAnimate1");
     $("div#H .type2").toggleClass("rotateAnimate2");
     $("div#H .type3").toggleClass("rotateAnimateSlow1");
@@ -64,7 +64,7 @@ $(document).ready(function(){
     $("div#H div").css('background-color', '#7c38a0');
   });
 
-  $("#I").hover(function(){
+  $("#I").click(function(){
     $("div#I .type1").toggleClass("rotateAnimate1");
     $("div#I .type2").toggleClass("rotateAnimate2");
     $("div#I .type3").toggleClass("rotateAnimateSlow1");
@@ -72,7 +72,7 @@ $(document).ready(function(){
     $("div#I div").css('background-color', '#7c38a0');
   });
 
-  $("#J").hover(function(){
+  $("#J").click(function(){
     $("div#J .type1").toggleClass("rotateAnimate1");
     $("div#J .type2").toggleClass("rotateAnimate2");
     $("div#J .type3").toggleClass("rotateAnimateSlow1");
@@ -80,7 +80,7 @@ $(document).ready(function(){
     $("div#J div").css('background-color', '#7c38a0');
   });
 
-  $("#K").hover(function(){
+  $("#K").click(function(){
     $("div#K .type1").toggleClass("rotateAnimate1");
     $("div#K .type2").toggleClass("rotateAnimate2");
     $("div#K .type3").toggleClass("rotateAnimateSlow1");
@@ -88,7 +88,7 @@ $(document).ready(function(){
     $("div#K div").css('background-color', '#7c38a0');
   });
 
-  $("#L").hover(function(){
+  $("#L").click(function(){
     $("div#L .type1").toggleClass("rotateAnimate1");
     $("div#L .type2").toggleClass("rotateAnimate2");
     $("div#L .type3").toggleClass("rotateAnimateSlow1");
@@ -96,7 +96,7 @@ $(document).ready(function(){
     $("div#L div").css('background-color', '#7c38a0');
   });
 
-  $("#M").hover(function(){
+  $("#M").click(function(){
     $("div#M .type1").toggleClass("rotateAnimate1");
     $("div#M .type2").toggleClass("rotateAnimate2");
     $("div#M .type3").toggleClass("rotateAnimateSlow1");
@@ -104,7 +104,7 @@ $(document).ready(function(){
     $("div#M div").css('background-color', '#7c38a0');
   });
 
-  $("#N").hover(function(){
+  $("#N").click(function(){
     $("div#N .type1").toggleClass("rotateAnimate1");
     $("div#N .type2").toggleClass("rotateAnimate2");
     $("div#N .type3").toggleClass("rotateAnimateSlow1");
@@ -112,7 +112,7 @@ $(document).ready(function(){
     $("div#N div").css('background-color', '#7c38a0');
   });
 
-  $("#O").hover(function(){
+  $("#O").click(function(){
     $("div#O .type1").toggleClass("rotateAnimate1");
     $("div#O .type2").toggleClass("rotateAnimate2");
     $("div#O .type3").toggleClass("rotateAnimateSlow1");
@@ -120,7 +120,7 @@ $(document).ready(function(){
     $("div#O div").css('background-color', '#7c38a0');
   });
 
-  $("#P").hover(function(){
+  $("#P").click(function(){
     $("div#P .type1").toggleClass("rotateAnimate1");
     $("div#P .type2").toggleClass("rotateAnimate2");
     $("div#P .type3").toggleClass("rotateAnimateSlow1");
@@ -128,7 +128,7 @@ $(document).ready(function(){
     $("div#P div").css('background-color', '#7c38a0');
   });
 
-  $("#Q").hover(function(){
+  $("#Q").click(function(){
     $("div#Q .type1").toggleClass("rotateAnimate1");
     $("div#Q .type2").toggleClass("rotateAnimate2");
     $("div#Q .type3").toggleClass("rotateAnimateSlow1");
@@ -136,7 +136,7 @@ $(document).ready(function(){
     $("div#Q div").css('background-color', '#7c38a0');
   });
 
-  $("#R").hover(function(){
+  $("#R").click(function(){
     $("div#R .type1").toggleClass("rotateAnimate1");
     $("div#R .type2").toggleClass("rotateAnimate2");
     $("div#R .type3").toggleClass("rotateAnimateSlow1");
@@ -144,7 +144,7 @@ $(document).ready(function(){
     $("div#R div").css('background-color', '#7c38a0');
   });
 
-  $("#S").hover(function(){
+  $("#S").click(function(){
     $("div#S .type1").toggleClass("rotateAnimate1");
     $("div#S .type2").toggleClass("rotateAnimate2");
     $("div#S .type3").toggleClass("rotateAnimateSlow1");
@@ -152,7 +152,7 @@ $(document).ready(function(){
     $("div#S div").css('background-color', '#7c38a0');
   });
 
-  $("#T").hover(function(){
+  $("#T").click(function(){
     $("div#T .type1").toggleClass("rotateAnimate1");
     $("div#T .type2").toggleClass("rotateAnimate2");
     $("div#T .type3").toggleClass("rotateAnimateSlow1");
@@ -160,7 +160,7 @@ $(document).ready(function(){
     $("div#T div").css('background-color', '#7c38a0');
   });
 
-  $("#U").hover(function(){
+  $("#U").click(function(){
     $("div#U .type1").toggleClass("rotateAnimate1");
     $("div#U .type2").toggleClass("rotateAnimate2");
     $("div#U .type3").toggleClass("rotateAnimateSlow1");
@@ -168,7 +168,7 @@ $(document).ready(function(){
     $("div#U div").css('background-color', '#7c38a0');
   });
 
-  $("#V").hover(function(){
+  $("#V").click(function(){
     $("div#V .type1").toggleClass("rotateAnimate1");
     $("div#V .type2").toggleClass("rotateAnimate2");
     $("div#V .type3").toggleClass("rotateAnimateSlow1");
@@ -176,7 +176,7 @@ $(document).ready(function(){
     $("div#V div").css('background-color', '#7c38a0');
   });
 
-  $("#W").hover(function(){
+  $("#W").click(function(){
     $("div#W .type1").toggleClass("rotateAnimate1");
     $("div#W .type2").toggleClass("rotateAnimate2");
     $("div#W .type3").toggleClass("rotateAnimateSlow1");
@@ -184,7 +184,7 @@ $(document).ready(function(){
     $("div#W div").css('background-color', '#7c38a0');
   });
 
-  $("#X").hover(function(){
+  $("#X").click(function(){
     $("div#X .type1").toggleClass("rotateAnimate1");
     $("div#X .type2").toggleClass("rotateAnimate2");
     $("div#X .type3").toggleClass("rotateAnimateSlow1");
@@ -192,7 +192,7 @@ $(document).ready(function(){
     $("div#X div").css('background-color', '#7c38a0');
   });
 
-  $("#Y").hover(function(){
+  $("#Y").click(function(){
     $("div#Y .type1").toggleClass("rotateAnimate1");
     $("div#Y .type2").toggleClass("rotateAnimate2");
     $("div#Y .type3").toggleClass("rotateAnimateSlow1");
@@ -200,7 +200,7 @@ $(document).ready(function(){
     $("div#Y div").css('background-color', '#7c38a0');
   });
 
-  $("#Z").hover(function(){
+  $("#Z").click(function(){
     $("div#Z .type1").toggleClass("rotateAnimate1");
     $("div#Z .type2").toggleClass("rotateAnimate2");
     $("div#Z .type3").toggleClass("rotateAnimateSlow1");

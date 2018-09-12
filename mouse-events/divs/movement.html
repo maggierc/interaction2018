@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>the good stuff</title>
+
+
+    <link rel="stylesheet" href="css/movement.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body id="movementHTML">
+    <section class="alphabet">
+      <div class="letter tester" id="A">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimate1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="B">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimate1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="C">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="D">
+        <div class="original">
+          <div class="vertL rotateAnimate1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="rotateAnimate1 " id="D-topL"></div>
+          <div class=" rotateAnimate2 " id="D-topR"></div>
+          <div class="rotateAnimate1 " id="D-bottomL"></div>
+          <div class=" rotateAnimate2 " id="D-bottomR"></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="rotateAnimateSlow1 " id="D-topL"></div>
+          <div class=" rotateAnimateSlow2 " id="D-topR"></div>
+          <div class="rotateAnimateSlow1 " id="D-bottomL"></div>
+          <div class=" rotateAnimateSlow2 " id="D-bottomR"></div>
+        </div>
+      </div>
+
+      <div class="letter" id="E">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="F">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1  "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1  "></div>
+          <div class="horzB Hmiddle rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="G">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle G-bar rotateAnimate1 "></div>
+          <div class="horzB Hmiddle G-bar rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT Hmiddle G-bar rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle G-bar rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="H">
+        <div class="original">
+          <div class="vertL rotateAnimate1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="vertL rightSide rotateAnimate1 "></div>
+          <div class="vertR rightSide rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="I">
+        <div class="original">
+          <div class="vertL Vmiddle rotateAnimate1 "></div>
+          <div class="vertR Vmiddle rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vmiddle rotateAnimateSlow1 "></div>
+          <div class="vertR Vmiddle rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="J">
+        <div class="original">
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="K">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="horzT K-bar rotateAnimateSlow1 "></div>
+          <div class="horzB K-bar rotateAnimate2 "></div>
+          <div class="rotateAnimateSlow1 " id="K-topL"></div>
+          <div class=" rotateAnimate2 " id="K-topR"></div>
+          <div class="rotateAnimateSlow1 " id="K-bottomL"></div>
+          <div class=" rotateAnimate2 " id="K-bottomR"></div>
+          </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="horzT K-bar rotateAnimateSlow1 "></div>
+          <div class="horzB K-bar rotateAnimateSlow2 "></div>
+          <div class="rotateAnimateSlow1 " id="K-topL"></div>
+          <div class=" rotateAnimateSlow2 " id="K-topR"></div>
+          <div class="rotateAnimateSlow1 " id="K-bottomL"></div>
+          <div class=" rotateAnimateSlow2 " id="K-bottomR"></div>
+        </div>
+      </div>
+
+      <div class="letter" id="L">
+        <div class="original">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="M">
+        <div class="original">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimate2 "></div>
+          <div class="rotateAnimateSlow1 " id="M-leftL"></div>
+          <div class=" rotateAnimate2 " id="M-leftR"></div>
+          <div class="rotateAnimateSlow1 " id="M-rightL"></div>
+          <div class=" rotateAnimate2 " id="M-rightR"></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimateSlow2 "></div>
+          <div class="rotateAnimateSlow1 " id="M-leftL"></div>
+          <div class=" rotateAnimateSlow2 " id="M-leftR"></div>
+          <div class="rotateAnimateSlow1 " id="M-rightL"></div>
+          <div class=" rotateAnimateSlow2 " id="M-rightR"></div>
+        </div>
+      </div>
+
+      <div class="letter" id="N">
+        <div class="original">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimate2 "></div>
+          <div class="diagL rotateAnimateSlow1 "></div>
+          <div class="diagR rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimateSlow2 "></div>
+          <div class="diagL rotateAnimateSlow1 "></div>
+          <div class="diagR rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="O">
+        <div class="original">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="P">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="Q">
+        <div class="original">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+          <div class="rotateAnimateSlow1 " id="Q-L"></div>
+          <div class=" rotateAnimate2 " id="Q-R"></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+          <div class="rotateAnimateSlow1 " id="Q-L"></div>
+          <div class=" rotateAnimateSlow2 " id="Q-R"></div>
+        </div>
+      </div>
+
+      <div class="letter" id="R">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+          <div class="rotateAnimateSlow1 " id="R-L"></div>
+          <div class=" rotateAnimate2 " id="R-R"></div>
+        </div>
+        <div class="layer">
+          <div class="vertL Vshort rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rotateAnimateSlow2 "></div>
+          <div class="vertL VshortB rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB rotateAnimateSlow2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT Hmiddle rotateAnimateSlow1 "></div>
+          <div class="horzB Hmiddle rotateAnimateSlow2 "></div>
+          <div class="rotateAnimateSlow1 " id="R-L"></div>
+          <div class=" rotateAnimateSlow2 " id="R-R"></div>
+        </div>
+      </div>
+
+      <div class="letter" id="S">
+        <div class="original">
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+          <div class="diagL rotateAnimateSlow1 "></div>
+          <div class="diagR rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+          <div class="diagL rotateAnimateSlow1 "></div>
+          <div class="diagR rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="T">
+        <div class="original">
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="vertL Vmiddle rotateAnimate1 "></div>
+          <div class="vertR Vmiddle rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="vertL Vmiddle rotateAnimateSlow1 "></div>
+          <div class="vertR Vmiddle rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="U">
+        <div class="original">
+          <div class="vertL rotateAnimate1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="vertL rightSide rotateAnimate1 "></div>
+          <div class="vertR rightSide rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="V">
+        <div class="original">
+          <div class="rotateAnimate1 " id="V-leftL"></div>
+          <div class=" rotateAnimate2 " id="V-leftR"></div>
+          <div class="rotateAnimate1 " id="V-rightL"></div>
+          <div class=" rotateAnimate2 " id="V-rightR"></div>
+        </div>
+        <div class="layer">
+          <div class="rotateAnimateSlow1 " id="V-leftL"></div>
+          <div class=" rotateAnimateSlow2 " id="V-leftR"></div>
+          <div class="rotateAnimateSlow1 " id="V-rightL"></div>
+          <div class=" rotateAnimateSlow2 " id="V-rightR"></div>
+        </div>
+      </div>
+
+      <div class="letter" id="W">
+        <div class="original">
+          <div class="vertL rotateAnimate1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="vertL rightSide rotateAnimate1 "></div>
+          <div class="vertR rightSide rotateAnimate2 "></div>
+          <div class="rotateAnimate1 " id="W-leftL"></div>
+          <div class=" rotateAnimate2 " id="W-leftR"></div>
+          <div class="rotateAnimate1 " id="W-rightL"></div>
+          <div class=" rotateAnimate2 " id="W-rightR"></div>
+        </div>
+        <div class="layer">
+          <div class="vertL rotateAnimateSlow1 "></div>
+          <div class="vertR rotateAnimateSlow2 "></div>
+          <div class="vertL rightSide rotateAnimateSlow1 "></div>
+          <div class="vertR rightSide rotateAnimateSlow2 "></div>
+          <div class="rotateAnimateSlow1 " id="W-leftL"></div>
+          <div class=" rotateAnimateSlow2 " id="W-leftR"></div>
+          <div class="rotateAnimateSlow1 " id="W-rightL"></div>
+          <div class=" rotateAnimateSlow2 " id="W-rightR"></div>
+        </div>
+      </div>
+
+      <div class="letter" id="X">
+        <div class="original">
+          <div class="diagL rotateAnimate1 "></div>
+          <div class="diagR rotateAnimate2 "></div>
+          <div class="diagLrev rotateAnimate1 "></div>
+          <div class="diagRrev rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="diagL rotateAnimateSlow1 "></div>
+          <div class="diagR rotateAnimateSlow2 "></div>
+          <div class="diagLrev rotateAnimateSlow1 "></div>
+          <div class="diagRrev rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="Y">
+        <div class="original">
+          <div class="rotateAnimate1 " id="Y-leftL"></div>
+          <div class=" rotateAnimate2 " id="Y-leftR"></div>
+          <div class="rotateAnimate1 " id="Y-rightL"></div>
+          <div class=" rotateAnimate2 " id="Y-rightR"></div>
+          <div class="vertL VshortB Vmiddle rotateAnimate1 "></div>
+          <div class="vertR VshortB Vmiddle rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="rotateAnimateSlow1 " id="Y-leftL"></div>
+          <div class=" rotateAnimateSlow2 " id="Y-leftR"></div>
+          <div class="rotateAnimateSlow1 " id="Y-rightL"></div>
+          <div class=" rotateAnimateSlow2 " id="Y-rightR"></div>
+          <div class="vertL VshortB Vmiddle rotateAnimateSlow1 "></div>
+          <div class="vertR VshortB Vmiddle rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+      <div class="letter" id="Z">
+        <div class="original">
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+          <div class="diagLrev rotateAnimate1 "></div>
+          <div class="diagRrev rotateAnimate2 "></div>
+        </div>
+        <div class="layer">
+          <div class="horzT rotateAnimateSlow1 "></div>
+          <div class="horzB rotateAnimateSlow2 "></div>
+          <div class="horzT bottomSide rotateAnimateSlow1 "></div>
+          <div class="horzB bottomSide rotateAnimateSlow2 "></div>
+          <div class="diagLrev rotateAnimateSlow1 "></div>
+          <div class="diagRrev rotateAnimateSlow2 "></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="numbers">
+      <div class="letter" id="zero">
+        <div class="original">
+          <div class="vertL rotateAnimate1 "></div>
+          <div class="vertR rotateAnimate2 "></div>
+          <div class="vertL rightSide rotateAnimate1 "></div>
+          <div class="vertR rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+          <div class="diagL rotateAnimate1 "></div>
+          <div class="diagR rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="one">
+        <div class="original">
+          <div class="vertL Vmiddle rotateAnimate1 "></div>
+          <div class="vertR Vmiddle rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="two">
+        <div class="original">
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimate1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="three">
+        <div class="original">
+          <div class="vertL Vshort rightSide rotateAnimate1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="four">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimate1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="five">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="six">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="seven">
+        <div class="original">
+          <div class="vertL Vshort rightSide rotateAnimate1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="eight">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL VshortB rotateAnimate1 "></div>
+          <div class="vertR VshortB rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimate1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+          <div class="horzT bottomSide rotateAnimate1 "></div>
+          <div class="horzB bottomSide rotateAnimate2 "></div>
+        </div>
+      </div>
+      <div class="letter" id="nine">
+        <div class="original">
+          <div class="vertL Vshort rotateAnimate1 "></div>
+          <div class="vertR Vshort rotateAnimate2 "></div>
+          <div class="vertL Vshort rightSide rotateAnimate1 "></div>
+          <div class="vertR Vshort rightSide rotateAnimate2 "></div>
+          <div class="vertL VshortB rightSide rotateAnimate1 "></div>
+          <div class="vertR VshortB rightSide rotateAnimate2 "></div>
+          <div class="horzT rotateAnimate1 "></div>
+          <div class="horzB rotateAnimate2 "></div>
+          <div class="horzT Hmiddle rotateAnimate1 "></div>
+          <div class="horzB Hmiddle rotateAnimate2 "></div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script src="scripts/movement.js"></script>
+
+  </body>
+</html>
