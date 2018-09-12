@@ -18,6 +18,8 @@ line {
   stroke-width: 3;
 }
 
+/*****************General Letter Coding******************/
+
 .letter {
   position: relative;
   display: inline-block;
@@ -127,6 +129,8 @@ line {
   height: 95px;
   margin-top: 100px;
 }
+
+/*****************Special Letter Coding******************/
 
 #D-topL {
   height: 110px;
@@ -291,7 +295,6 @@ line {
   margin-left: 65px;
   margin-top: 95px;
 }
-
 
 #V-leftL {
   height: 200px;
