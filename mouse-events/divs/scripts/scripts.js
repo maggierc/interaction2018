@@ -16,6 +16,198 @@ $(document).ready(function(){
     $("div#B div").css('background-color', '#7c38a0');
   });
 
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
+  $("#").hover(function(){
+    $("div# .type1").toggleClass("rotateAnimate1");
+    $("div# .type2").toggleClass("rotateAnimate2");
+    $("div# .type3").toggleClass("rotateAnimateSlow1");
+    $("div# .type4").toggleClass("rotateAnimateSlow2");
+    $("div# div").css('background-color', '#7c38a0');
+  });
+
 
 
 
