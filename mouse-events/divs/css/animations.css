@@ -9,10 +9,10 @@
 
 .rotateAnimate2 {
   animation-name: theAnimation;
-  animation-duration: 25s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-out;
 }
 
 .rotateAnimateSlow1 {
@@ -31,6 +31,22 @@
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: ease-in-out;
+}
+
+#one div {
+  animation-delay: -1.25s;
+}
+
+#two div {
+  animation-delay: -2.5s;
+}
+
+#three div {
+  animation-delay: -3.75s;
+}
+
+#four div {
+  animation-delay: -5s;
 }
 
 

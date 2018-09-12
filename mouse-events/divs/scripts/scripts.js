@@ -1,12 +1,13 @@
 $(document).ready(function(){
 
-  $("#O").hover(function(){
-    $("div#O div.Oog").toggleClass("rotateAnimate1", 'slow');
-    $("div#O div.Oalt").toggleClass("rotateAnimate2", 'slow');
-    $("div#O div.OSlow1").toggleClass("rotateAnimateSlow1", 'slow');
-    $("div#O div.OSlow2").toggleClass("rotateAnimateSlow2", 'slow');
+  $("#A").hover(function(){
+    $("div#A").toggleClass("rotateAnimate1");
+    $("div#A").toggleClass("rotateAnimate2");
+    // $("div#O div.OSlow1").toggleClass("rotateAnimateSlow1", 'slow');
+    // $("div#O div.OSlow2").toggleClass("rotateAnimateSlow2", 'slow');
 
   });
+
 
 
 
