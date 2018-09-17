@@ -2,20 +2,16 @@ body  {
   padding: 0;
   margin: 0;
   background-color: #1a0841;
+  width: 100%;
 }
 
 section {
-  margin: 100px 40px;
-  width: 100%;
+  margin: 100px 60px;
+  width: 80%;
 }
 
 div {
   transition: 0.5s;
-}
-
-line {
-  stroke: #ab0e86;
-  stroke-width: 3;
 }
 
 /*****************General Letter Coding******************/
@@ -23,34 +19,11 @@ line {
 .letter {
   position: relative;
   display: inline-block;
-  height: 200px;
-  width: 90px;
-  margin: 50px 75px;
-  padding: 20px;
+  height: 50px;
+  width: 22.5px;
+  margin: 50px 10px;
+  padding: 10px;
   transform: scale(0.4);
-}
-
-/* .scaler {
-  transform: scale(0.4);
-}
-
-#C .scaler {
-  transform: scale(0.2);
-}
-
-#A, #E, #I, #O, #U {
-  transform: scale(0.9);
-}
-
-#M, #R, #C {
-  transform: scale(0.2);
-}
-
-#Z, #Q, #L, #G {
-  transform: scale(0.7);
-} */
-
-#A div div, #E div div, #I div div, #O div div, #U div div {
 }
 
 .letter div div {
@@ -69,8 +42,6 @@ line {
   width: 4%;
   transform: rotate(4deg);
   position: absolute;
-
-
 }
 
 .rightSide {
@@ -83,8 +54,6 @@ line {
   width: 55%;
   transform: rotate(-4deg);
   position: absolute;
-
-
 }
 
 .horzB {
@@ -93,8 +62,6 @@ line {
   width: 55%;
   transform: rotate(4deg);
   position: absolute;
-
-
 }
 
 .diagL {

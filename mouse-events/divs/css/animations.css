@@ -1,6 +1,6 @@
 /***************** Animations ******************/
 
-/* .rotateAnimate1 {
+.rotateAnimate1 {
   background-color: #1d0c5b;
 
   animation-name: theAnimation;
@@ -37,22 +37,6 @@
   animation-timing-function: ease-in-out;
 }
 
-#one div {
-  animation-delay: -1.25s;
-}
-
-#two div {
-  animation-delay: -2.5s;
-}
-
-#three div {
-  animation-delay: -3.75s;
-}
-
-#four div {
-  animation-delay: -5s;
-}
-
 
 @keyframes theAnimation {
   0% {transform:rotate(0deg);}
@@ -66,11 +50,11 @@
   25% {transform:rotate(360deg);}
   50% {transform:rotate(0deg);}
   100% {transform:rotate(-360deg);}
-} */
+}
 
 /***************** Movement Animations ******************/
 
-/* #movementHTML .rotateAnimate1 {
+#movementHTML .rotateAnimate1 {
   background-color: #7971ea;
 
   animation-name: theAnimation;
@@ -105,9 +89,9 @@
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: ease-in-out;
-} */
+}
 
-/* .move1 {
+.move1 {
   animation-name: move1;
   animation-duration: 60s;
   animation-iteration-count: infinite;
@@ -116,7 +100,7 @@
 
 .move2 {
   animation-name: move2;
-  animation-duration: 30s;
+  animation-duration: 60s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -126,36 +110,44 @@
   animation-duration: 90s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-} */
+}
+
+#B,#D,#F,#H,#J,#L,#N,#P,#R,#T,#V,#X,#Z {
+  animation-direction: reverse;
+}
+
+#A,#D,#G,#J,#M,#P,#S,#V,#Y {
+  animation-delay: -10s;
+}
+
+#C,#F,#I,#L,#O,#R,#U,#X {
+  animation-delay: -20s;
+}
 
 .pause {
   animation-play-state: paused;
 }
 
 @keyframes move1 {
-  0% {transform:matrix(0.5,0,0,0.5,0,0);}
-  20% {transform:matrix(0.3,0,0,0.3,100,-70);}
-  40% {transform:matrix(1,0,0,1,150,-10);}
-  60% {transform:matrix(0.3,0,0,0.3,30,270);}
-  80% {transform:matrix(0.5,0,0,0.5,800,150);}
-  100% {transform:matrix(0.5,0,0,0.5,0,0);}
+  0% {transform:matrix(1,0,0,1,0,0);}
+  20% {transform:matrix(0.7,0,0,0.7,50,-10);}
+  40% {transform:matrix(1,0,0,1,0,-20);}
+  60% {transform:matrix(0.3,0,0,0.3,30,70);}
+  80% {transform:matrix(0.5,0,0,0.5,100,150);}
+  100% {transform:matrix(1,0,0,1,0,0);}
 }
 
 @keyframes move2 {
-  0% {transform:matrix(0.4,0,0,0.4,0,0);}
+  0% {transform:matrix(0.4,0,0,0.4,20,20);}
   10% {transform:matrix(1,0,0,1,0,70);}
-  45% {transform:matrix(0.3,0,0,0.3,300,-50);}
-  75% {transform:matrix(0.9,0,0,0.9,100,50);}
-  100% {transform:matrix(0.4,0,0,0.4,0,0);}
+  45% {transform:matrix(0.3,0,0,0.3,40,-5);}
+  75% {transform:matrix(0.6,0,0,0.6,100,50);}
+  100% {transform:matrix(0.4,0,0,0.4,20,20);}
 }
 
 @keyframes move3 {
-  /* 0% {transform:translate(0);}
-  35% {transform:translate(400px, 300px);}
-  65% {transform:translate(-350px, -50px);}
-  100% {transform:translate(0);} */
-  0% {transform:matrix(0.2,0,0,0.2,0,0);}
-  33% {transform:matrix(1.5,0,0,1.5,200,300);}
-  66% {transform:matrix(0.9,0,0,0.9,-350,-100);}
-  100% {transform:matrix(0.2,0,0,0.2,0,0);}
+  0% {transform:matrix(0.2,0,0,0.2,10,10);}
+  10% {transform:matrix(0.5,0,0,0.5,20,-15);}
+  66% {transform:matrix(0.4,0,0,0.4,-100,50);}
+  100% {transform:matrix(0.2,0,0,0.2,10,10);}
 }
