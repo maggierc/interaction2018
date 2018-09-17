@@ -1,6 +1,6 @@
 /***************** Animations ******************/
 
-.rotateAnimate1 {
+/* .rotateAnimate1 {
   background-color: #1d0c5b;
 
   animation-name: theAnimation;
@@ -66,11 +66,11 @@
   25% {transform:rotate(360deg);}
   50% {transform:rotate(0deg);}
   100% {transform:rotate(-360deg);}
-}
+} */
 
 /***************** Movement Animations ******************/
 
-#movementHTML .rotateAnimate1 {
+/* #movementHTML .rotateAnimate1 {
   background-color: #7971ea;
 
   animation-name: theAnimation;
@@ -105,9 +105,9 @@
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: ease-in-out;
-}
+} */
 
-#movementHTML .move1 {
+/* .move1 {
   animation-name: move1;
   animation-duration: 60s;
   animation-iteration-count: infinite;
@@ -126,7 +126,7 @@
   animation-duration: 90s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-}
+} */
 
 .pause {
   animation-play-state: paused;
