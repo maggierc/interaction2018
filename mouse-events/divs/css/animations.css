@@ -1,43 +1,3 @@
-/***************** Animations ******************/
-
-.rotateAnimate1 {
-  background-color: #1d0c5b;
-
-  animation-name: theAnimation;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-.rotateAnimate2 {
-  background-color: #1d0c5b;
-
-  animation-name: theAnimation;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
-  animation-timing-function: ease-out;
-}
-
-.rotateAnimateSlow1 {
-  background-color: #1d0c5b;
-  animation-name: theAnimationSlow;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-.rotateAnimateSlow2 {
-  background-color: #1d0c5b;
-
-  animation-name: theAnimationSlow;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
-  animation-timing-function: ease-in-out;
-}
-
-
 @keyframes theAnimation {
   0% {transform:rotate(0deg);}
   25% {transform:rotate(360deg);}
@@ -52,43 +12,52 @@
   100% {transform:rotate(-360deg);}
 }
 
-/***************** Movement Animations ******************/
-
 #movementHTML .rotateAnimate1 {
-  background-color: #7971ea;
+  background-color: #12e6c8;
 
   animation-name: theAnimation;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+
+  animation-delay: -1.875s;
 }
 
 #movementHTML .rotateAnimate2 {
-  background-color: #7971ea;
+  background-color: #12e6c8;
 
   animation-name: theAnimation;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: ease-out;
+
+  animation-delay: -2.5s;
+
 }
 
 #movementHTML .rotateAnimateSlow1 {
-  background-color: #7971ea;
+  background-color: #12e6c8;
   animation-name: theAnimationSlow;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+
+  animation-delay: -2.5s;
+
 }
 
 #movementHTML .rotateAnimateSlow2 {
-  background-color: #7971ea;
+  background-color: #12e6c8;
 
   animation-name: theAnimationSlow;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: ease-in-out;
+
+  animation-delay: -1.25s;
+
 }
 
 .move1 {
@@ -116,12 +85,20 @@
   animation-direction: reverse;
 }
 
-#A,#D,#G,#J,#M,#P,#S,#V,#Y {
-  animation-delay: -10s;
+#A .rotateAnimate1, #C .rotateAnimate1, #H .rotateAnimate1, #L .rotateAnimate1, #N .rotateAnimate1, #Q .rotateAnimate1, #W .rotateAnimate1, #Y .rotateAnimate1, #Z .rotateAnimate1 {
+  animation-delay: -5.625s;
 }
 
-#C,#F,#I,#L,#O,#R,#U,#X {
-  animation-delay: -20s;
+#A .rotateAnimate2, #C .rotateAnimate2, #H .rotateAnimate2, #L .rotateAnimate2, #N .rotateAnimate2, #Q .rotateAnimate2, #W .rotateAnimate2, #Y .rotateAnimate2, #Z .rotateAnimate2 {
+  animation-delay: -7.5s;
+}
+
+#A .rotateAnimateSlow1, #C .rotateAnimateSlow1, #H .rotateAnimateSlow1, #L .rotateAnimateSlow1, #N .rotateAnimateSlow1, #Q .rotateAnimateSlow1, #W .rotateAnimateSlow1, #Y .rotateAnimateSlow1, #Z .rotateAnimateSlow1 {
+  animation-delay: -7.5s;
+}
+
+#A .rotateAnimateSlow2, #C .rotateAnimateSlow2, #H .rotateAnimateSlow2, #L .rotateAnimateSlow2, #N .rotateAnimateSlow2, #Q .rotateAnimateSlow2, #W .rotateAnimateSlow2, #Y .rotateAnimateSlow2, #Z .rotateAnimateSlow2 {
+  animation-delay: -3.75s;
 }
 
 .pause {
@@ -129,25 +106,25 @@
 }
 
 @keyframes move1 {
-  0% {transform:matrix(1,0,0,1,0,0);}
-  20% {transform:matrix(0.7,0,0,0.7,50,-10);}
+  0% {transform:matrix(2,0,0,2,0,0);}
+  20% {transform:matrix(1.3,0,0,1.3,50,-10);}
   40% {transform:matrix(1,0,0,1,0,-20);}
-  60% {transform:matrix(0.3,0,0,0.3,30,70);}
-  80% {transform:matrix(0.5,0,0,0.5,100,150);}
-  100% {transform:matrix(1,0,0,1,0,0);}
+  60% {transform:matrix(0.5,0,0,0.5,30,70);}
+  80% {transform:matrix(0.3,0,0,0.3,100,150);}
+  100% {transform:matrix(2,0,0,2,0,0);}
 }
 
 @keyframes move2 {
-  0% {transform:matrix(0.4,0,0,0.4,20,20);}
-  10% {transform:matrix(1,0,0,1,0,70);}
+  0% {transform:matrix(1,0,0,1,20,20);}
+  10% {transform:matrix(0.6,0,0,0.6,0,70);}
   45% {transform:matrix(0.3,0,0,0.3,40,-5);}
-  75% {transform:matrix(0.6,0,0,0.6,100,50);}
-  100% {transform:matrix(0.4,0,0,0.4,20,20);}
+  75% {transform:matrix(2,0,0,2,100,50);}
+  100% {transform:matrix(1,0,0,1,20,20);}
 }
 
 @keyframes move3 {
   0% {transform:matrix(0.2,0,0,0.2,10,10);}
-  10% {transform:matrix(0.5,0,0,0.5,20,-15);}
-  66% {transform:matrix(0.4,0,0,0.4,-100,50);}
+  10% {transform:matrix(0.5,0,0,0.5,70,-15);}
+  66% {transform:matrix(0.4,0,0,0.4,20,50);}
   100% {transform:matrix(0.2,0,0,0.2,10,10);}
 }

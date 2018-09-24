@@ -1,13 +1,15 @@
 body  {
   padding: 0;
   margin: 0;
-  background-color: #1a0841;
+  background-color: #06001e;
   width: 100%;
 }
 
 section {
-  margin: 100px 60px;
-  width: 80%;
+  margin: 70px 60px;
+  margin-left: 150px;
+  width: 1250px;
+  height: 500px;
 }
 
 div {
@@ -21,25 +23,26 @@ div {
   display: inline-block;
   height: 50px;
   width: 22.5px;
-  margin: 50px 10px;
+  margin: 50px 25px;
   padding: 10px;
   transform: scale(0.4);
 }
 
 .letter div div {
   border-radius: 50px;
+  box-shadow: 0 0 10px #16bcbc;
 }
 
 .vertL {
   position: absolute;
   height: 85%;
-  width: 4%;
+  width: 3%;
   transform: rotate(-4deg);
 }
 
 .vertR {
   height: 85%;
-  width: 4%;
+  width: 3%;
   transform: rotate(4deg);
   position: absolute;
 }
@@ -127,7 +130,7 @@ div {
 
 #D-topL {
   height: 45%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(-36deg);
   position: absolute;
 
@@ -136,7 +139,7 @@ div {
 
 #D-topR {
   height: 45%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(-29deg);
   position: absolute;
 
@@ -145,7 +148,7 @@ div {
 
 #D-bottomL {
   height: 45%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(36deg);
   position: absolute;
 
@@ -155,7 +158,7 @@ div {
 
 #D-bottomR {
   height: 45%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(29deg);
   position: absolute;
 
@@ -214,7 +217,7 @@ div {
 
 #M-leftL {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(-25deg);
   position: absolute;
 
@@ -223,7 +226,7 @@ div {
 
 #M-leftR {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(-18deg);
   position: absolute;
 
@@ -232,7 +235,7 @@ div {
 
 #M-rightL {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(25deg);
   position: absolute;
 
@@ -241,7 +244,7 @@ div {
 
 #M-rightR {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(18deg);
   position: absolute;
 
@@ -326,7 +329,7 @@ div {
 
 #W-leftL {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(25deg);
   position: absolute;
 
@@ -336,7 +339,7 @@ div {
 
 #W-leftR {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(18deg);
   position: absolute;
 
@@ -346,7 +349,7 @@ div {
 
 #W-rightL {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(-25deg);
   position: absolute;
 
@@ -356,7 +359,7 @@ div {
 
 #W-rightR {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(-18deg);
   position: absolute;
 
@@ -366,7 +369,7 @@ div {
 
 #Y-leftL {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(-25deg);
   position: absolute;
 
@@ -375,7 +378,7 @@ div {
 
 #Y-leftR {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(-18deg);
   position: absolute;
 
@@ -384,7 +387,7 @@ div {
 
 #Y-rightL {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(25deg);
   position: absolute;
 
@@ -393,7 +396,7 @@ div {
 
 #Y-rightR {
   height: 42%;
-  width: 4%;
+  width: 3.5%;
   transform: rotate(18deg);
   position: absolute;
 
