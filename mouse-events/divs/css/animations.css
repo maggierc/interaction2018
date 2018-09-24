@@ -85,6 +85,8 @@
   animation-direction: reverse;
 }
 
+/* SPECIAL ANIMATION DELAYS 1 */
+
 #A .rotateAnimate1, #C .rotateAnimate1, #H .rotateAnimate1, #L .rotateAnimate1, #N .rotateAnimate1, #Q .rotateAnimate1, #W .rotateAnimate1, #Y .rotateAnimate1, #Z .rotateAnimate1 {
   animation-delay: -5.625s;
 }
@@ -101,9 +103,30 @@
   animation-delay: -3.75s;
 }
 
+/* SPECIAL ANIMATION DELAYS 2 */
+
+#B .rotateAnimate1, #D .rotateAnimate1, #J .rotateAnimate1, #M .rotateAnimate1, #R .rotateAnimate1, #T .rotateAnimate1, #V .rotateAnimate1, #X .rotateAnimate1 {
+  animation-delay: -13.5s;
+}
+
+#B .rotateAnimate2, #D .rotateAnimate2, #J .rotateAnimate2, #M .rotateAnimate2, #R .rotateAnimate2, #T .rotateAnimate2, #V .rotateAnimate2, #X .rotateAnimate2 {
+  animation-delay: -18s;
+}
+
+#B .rotateAnimateSlow1, #D .rotateAnimateSlow1, #J .rotateAnimateSlow1, #M .rotateAnimateSlow1, #R .rotateAnimateSlow1, #T .rotateAnimateSlow1, #V .rotateAnimateSlow1, #X .rotateAnimateSlow1 {
+  animation-delay: -18s;
+}
+
+#B .rotateAnimateSlow2, #D .rotateAnimateSlow2, #J .rotateAnimateSlow2, #M .rotateAnimateSlow2, #R .rotateAnimateSlow2, #T .rotateAnimateSlow2, #V .rotateAnimateSlow2, #X .rotateAnimateSlow2 {
+  animation-delay: -9s;
+}
+
 .pause {
   animation-play-state: paused;
 }
+
+
+/* MOVEMENT ANIMATIONS */
 
 @keyframes move1 {
   0% {transform:matrix(2,0,0,2,0,0);}
