@@ -1,21 +1,60 @@
-body {
+body  {
   padding: 0;
   margin: 0;
-  background-color: #05092d;
+  background-color: #16bcbc;
+  width: 100%;
 }
 
-section {
-  margin: 100px 40px;
+section.title {
+  margin: 70px 60px;
+  margin-left: 100px;
   width: 100%;
+  height: 300px;
+}
+
+section.alphabet {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  padding: 70px 60px;
+  padding-left: 100px;
+
 }
 
 div {
   transition: 0.5s;
 }
 
-line {
-  stroke: #ab0e86;
-  stroke-width: 3;
+/*****************Button******************/
+
+.button {
+  position: fixed;
+  top: 15px;
+  left: -200px;
+  background-color: #06001e;
+  border: none;
+  color: #fff;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 0px 100px 100px 0px;
+  transition: 0.3s;
+  font-family: Arial, sans-serif;
+
+  text-transform: uppercase;
+}
+
+.button:hover {
+  top: 15px;
+  left: 0;
+  background-color: #5773ff;
+  color: white;
+  padding: 7px 32px;
+
+  transition: 0.3s;
 }
 
 /*****************General Letter Coding******************/
@@ -23,395 +62,460 @@ line {
 .letter {
   position: relative;
   display: inline-block;
-  height: 200px;
-  width: 90px;
-  margin: 50px 75px;
-  padding: 20px;
+  height: 300px;
+  width: 155px;
+  margin: 5px -55px;
+  padding: 10px;
+  transform: scale(0.4);
+}
+
+.word1, .word2 {
+  display: inline-block;
+  margin: 0;
+  padding:0;
+  height: 40%;
+}
+
+.word2 {
+  margin-left: 80px;
 }
 
 .letter div div {
   border-radius: 50px;
 }
 
-body#indexHTML .letter {
-  transform: scale(0.8);
-}
-
 .vertL {
-  height: 200px;
-  width: 5px;
-  transform: rotate(-4deg);
   position: absolute;
-
-
+  height: 85%;
+  width: 3%;
+  transform: rotate(-4deg);
 }
 
 .vertR {
-  height: 200px;
-  width: 5px;
+  height: 85%;
+  width: 3%;
   transform: rotate(4deg);
   position: absolute;
-
-
 }
 
 .rightSide {
-  margin-left: 80px;
+  margin-left: 60%;
 }
 
 .horzT {
-  height: 5px;
-  margin-left: 5px;
-  width: 75px;
+  height: 2%;
+  margin-left: 2%;
+  width: 55%;
   transform: rotate(-4deg);
   position: absolute;
-
-
 }
 
 .horzB {
-  height: 5px;
-  margin-left: 5px;
-  width: 75px;
+  height: 2%;
+  margin-left: 2%;
+  width: 55%;
   transform: rotate(4deg);
   position: absolute;
-
-
 }
 
 .diagL {
-  height: 200px;
-  width: 5px;
+  height: 85%;
+  width: 4%;
   transform: rotate(-26deg);
   position: absolute;
 
-  margin-left: 40px;
+  margin-left: 30%;
 }
 
 .diagR {
-  height: 200px;
-  width: 5px;
+  height: 85%;
+  width: 4%;
   transform: rotate(-19deg);
   position: absolute;
 
-  margin-left: 40px;
+  margin-left: 30%;
 }
 
 .diagLrev {
-  height: 200px;
-  width: 5px;
+  height: 85%;
+  width: 4%;
   transform: rotate(26deg);
   position: absolute;
 
-  margin-left: 40px;
+  margin-left: 30%;
 }
 
 .diagRrev {
-  height: 200px;
-  width: 5px;
+  height: 85%;
+  width: 4%;
   transform: rotate(19deg);
   position: absolute;
 
-  margin-left: 40px;
+  margin-left: 30%;
 }
 
 .bottomSide {
-  margin-top: 195px;
+  margin-top: 152%;
 }
 
 .Hmiddle {
-  margin-top: 95px;
-  margin-left: 5px;
-  width: 75px;
+  margin-top: 75%;
+  margin-left: 3%;
+  width: 55%;
 }
 
 .Vmiddle {
-  margin-left: 40px;
+  margin-left: 30%;
 }
 
 .Vshort {
-  height: 95px;
+  height: 40%;
 }
 
 .VshortB {
-  height: 95px;
-  margin-top: 100px;
+  height: 40%;
+  margin-top: 80%;
 }
 
 /*****************Special Letter Coding******************/
 
 #D-topL {
-  height: 110px;
-  width: 5px;
+  height: 45%;
+  width: 3.5%;
   transform: rotate(-36deg);
   position: absolute;
 
-  margin-left: 40px;
+  margin-left: 30%;
 }
 
 #D-topR {
-  height: 110px;
-  width: 5px;
+  height: 45%;
+  width: 3.5%;
   transform: rotate(-29deg);
   position: absolute;
 
-  margin-left: 40px;
+  margin-left: 30%;
 }
 
 #D-bottomL {
-  height: 110px;
-  width: 5px;
+  height: 45%;
+  width: 3.5%;
   transform: rotate(36deg);
   position: absolute;
 
-  margin-left: 40px;
-  margin-top: 90px;
+  margin-left: 30%;
+  margin-top: 70%;
 }
 
 #D-bottomR {
-  height: 110px;
-  width: 5px;
+  height: 45%;
+  width: 3.5%;
   transform: rotate(29deg);
   position: absolute;
 
-  margin-left: 40px;
-  margin-top: 90px;
+  margin-left: 30%;
+  margin-top: 70%;
 
 }
 
 .G-bar {
-  width: 40px;
-  margin-left: 40px;
+  width: 30%;
+  margin-left: 30%;
 }
 
 .K-bar {
-  width: 30px;
-  margin-top: 95px;
+  width: 20%;
+  margin-top: 75%;
 }
 
 #K-topL {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 4%;
   transform: rotate(25deg);
   position: absolute;
 
-  margin-left: 50px;
+  margin-left: 38%;
 }
 
 #K-topR {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 4%;
   transform: rotate(18deg);
   position: absolute;
 
-  margin-left: 50px;
+  margin-left: 38%;
 }
 
 #K-bottomL {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 4%;
   transform: rotate(-25deg);
   position: absolute;
 
-  margin-left: 50px;
-  margin-top: 95px;
+  margin-left: 38%;
+  margin-top: 75%;
 }
 
 #K-bottomR {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 4%;
   transform: rotate(-18deg);
   position: absolute;
 
-  margin-left: 50px;
-  margin-top: 95px;
+  margin-left: 38%;
+  margin-top: 75%;
 }
 
 #M-leftL {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(-25deg);
   position: absolute;
 
-  margin-left: 20px;
+  margin-left: 15%;
 }
 
 #M-leftR {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(-18deg);
   position: absolute;
 
-  margin-left: 20px;
+  margin-left: 15%;
 }
 
 #M-rightL {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(25deg);
   position: absolute;
 
-  margin-left: 60px;
+  margin-left: 47%;
 }
 
 #M-rightR {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(18deg);
   position: absolute;
 
-  margin-left: 60px;
+  margin-left: 47%;
 }
 
 #Q-L {
-  height: 80px;
-  width: 5px;
+  height: 35%;
+  width: 4%;
   transform: rotate(-26deg);
   position: absolute;
 
-  margin-left: 65px;
-  margin-top: 120px;
+  margin-left: 50%;
+  margin-top: 92%;
 }
 
 #Q-R {
-  height: 80px;
-  width: 5px;
+  height: 35%;
+  width: 4%;
   transform: rotate(-19deg);
   position: absolute;
-
-  margin-left: 65px;
-  margin-top: 120px;
+  margin-left: 50%;
+  margin-top: 92%;
 
 }
 
 #R-L {
-  height: 105px;
-  width: 5px;
+  height: 45%;
+  width: 4%;
   transform: rotate(-26deg);
   position: absolute;
 
-  margin-left: 65px;
-  margin-top: 95px;
+  margin-left: 50%;
+  margin-top: 75%;
 }
 
 #R-R {
-  height: 105px;
-  width: 5px;
+  height: 45%;
+  width: 4%;
   transform: rotate(-19deg);
   position: absolute;
 
-  margin-left: 65px;
-  margin-top: 95px;
+  margin-left: 50%;
+  margin-top: 75%;
 }
 
 #V-leftL {
-  height: 200px;
-  width: 5px;
+  height: 83%;
+  width: 4%;
   transform: rotate(-17deg);
   position: absolute;
 
-  margin-left: 20px;
+  margin-left: 15%;
 }
 
 #V-leftR {
-  height: 200px;
-  width: 5px;
+  height: 83%;
+  width: 4%;
   transform: rotate(-10deg);
   position: absolute;
 
-  margin-left: 20px;
+  margin-left: 15%;
 }
 
 #V-rightL {
-  height: 200px;
-  width: 5px;
+  height: 83%;
+  width: 4%;
   transform: rotate(17deg);
   position: absolute;
 
-  margin-left: 70px;
+  margin-left: 52%;
 }
 
 #V-rightR {
-  height: 200px;
-  width: 5px;
+  height: 83%;
+  width: 4%;
   transform: rotate(10deg);
   position: absolute;
 
-  margin-left: 70px;
+  margin-left: 52%;
 }
 
 #W-leftL {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(25deg);
   position: absolute;
 
-  margin-left: 20px;
-  margin-top: 100px;
+  margin-left: 15%;
+  margin-top: 75%;
 }
 
 #W-leftR {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(18deg);
   position: absolute;
 
-  margin-left: 20px;
-  margin-top: 100px;
+  margin-left: 15%;
+  margin-top: 75%;
 }
 
 #W-rightL {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(-25deg);
   position: absolute;
 
-  margin-left: 60px;
-  margin-top: 100px;
+  margin-left: 45%;
+  margin-top: 75%;
 }
 
 #W-rightR {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(-18deg);
   position: absolute;
 
-  margin-left: 60px;
-  margin-top: 100px;
+  margin-left: 45%;
+  margin-top: 75%;
 }
 
 #Y-leftL {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(-25deg);
   position: absolute;
 
-  margin-left: 20px;
+  margin-left: 15%;
 }
 
 #Y-leftR {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(-18deg);
   position: absolute;
 
-  margin-left: 20px;
+  margin-left: 15%;
 }
 
 #Y-rightL {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(25deg);
   position: absolute;
 
-  margin-left: 60px;
+  margin-left: 45%;
 }
 
 #Y-rightR {
-  height: 100px;
-  width: 5px;
+  height: 42%;
+  width: 3.5%;
   transform: rotate(18deg);
   position: absolute;
 
-  margin-left: 60px;
+  margin-left: 45%;
 }
+
+.original div {
+  background-color: black;
+}
+
+.alphabet .original div {
+  background-color: white;
+}
+
+
+/**************CONSTANT ANIMATION FOR I IN TITLE******************/
+@keyframes theAnimation {
+  0% {transform:rotate(0deg);}
+  25% {transform:rotate(360deg);}
+  50% {transform:rotate(0deg);}
+  100% {transform:rotate(-360deg);}
+}
+
+@keyframes theAnimationSlow {
+  0% {transform:rotate(0deg);}
+  25% {transform:rotate(360deg);}
+  50% {transform:rotate(0deg);}
+  100% {transform:rotate(-360deg);}
+}
+
+.title #I .rotateAnimate1 {
+  background-color: #000;
+
+  animation-name: theAnimation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.title #I .rotateAnimate2 {
+  background-color: #000;
+
+  animation-name: theAnimation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+
+}
+
+.title #I .rotateAnimateSlow1 {
+  background-color: #000;
+  animation-name: theAnimationSlow;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+.title #I .rotateAnimateSlow2 {
+  background-color: #000;
+
+  animation-name: theAnimationSlow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-in-out;
+
+}
+
+/**************HOVER ANIMATION FOR CHARACTERS******************/

@@ -27,7 +27,7 @@ $(document).ready(function(){
       $("div#A .type4").toggleClass("rotateAnimateSlow2");
       $("div#A").toggleClass("pause");
 
-      $("div#A div").css('background-color', '#53b5cc');
+      $("div#A div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -43,7 +43,7 @@ $(document).ready(function(){
 
   $("#B").mouseleave(function(){
     setTimeout(function(){
-      $("div#B div").css('background-color', '#53b5cc');
+      $("div#B div").css('background-color', '#5773ff');
 
       $("div#B .type1").toggleClass("rotateAnimate1");
       $("div#B .type2").toggleClass("rotateAnimate2");
@@ -71,7 +71,7 @@ $(document).ready(function(){
       $("div#C .type4").toggleClass("rotateAnimateSlow2");
       $("div#C").toggleClass("pause");
 
-      $("div#C div").css('background-color', '#53b5cc');
+      $("div#C div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -93,7 +93,7 @@ $(document).ready(function(){
       $("div#D .type4").toggleClass("rotateAnimateSlow2");
       $("div#D").toggleClass("pause");
 
-      $("div#D div").css('background-color', '#53b5cc');
+      $("div#D div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -115,7 +115,7 @@ $(document).ready(function(){
       $("div#E .type4").toggleClass("rotateAnimateSlow2");
       $("div#E").toggleClass("pause");
 
-      $("div#E div").css('background-color', '#53b5cc');
+      $("div#E div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -137,7 +137,7 @@ $(document).ready(function(){
       $("div#F .type4").toggleClass("rotateAnimateSlow2");
       $("div#F").toggleClass("pause");
 
-      $("div#F div").css('background-color', '#53b5cc');
+      $("div#F div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -159,7 +159,7 @@ $(document).ready(function(){
       $("div#G .type4").toggleClass("rotateAnimateSlow2");
       $("div#G").toggleClass("pause");
 
-      $("div#G div").css('background-color', '#53b5cc');
+      $("div#G div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -181,7 +181,7 @@ $(document).ready(function(){
       $("div#H .type4").toggleClass("rotateAnimateSlow2");
       $("div#H").toggleClass("pause");
 
-      $("div#H div").css('background-color', '#53b5cc');
+      $("div#H div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -203,7 +203,7 @@ $(document).ready(function(){
       $("div#I .type4").toggleClass("rotateAnimateSlow2");
       $("div#I").toggleClass("pause");
 
-      $("div#I div").css('background-color', '#53b5cc');
+      $("div#I div").css('background-color', '#5773ff');
     },700);
   });
 
@@ -225,7 +225,7 @@ $(document).ready(function(){
       $("div#J .type4").toggleClass("rotateAnimateSlow2");
       $("div#J").toggleClass("pause");
 
-      $("div#J div").css('background-color', '#53b5cc');
+      $("div#J div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -247,7 +247,7 @@ $(document).ready(function(){
       $("div#K .type4").toggleClass("rotateAnimateSlow2");
       $("div#K").toggleClass("pause");
 
-      $("div#K div").css('background-color', '#53b5cc');
+      $("div#K div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -269,7 +269,7 @@ $(document).ready(function(){
       $("div#L .type4").toggleClass("rotateAnimateSlow2");
       $("div#L").toggleClass("pause");
 
-      $("div#L div").css('background-color', '#53b5cc');
+      $("div#L div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -291,7 +291,7 @@ $(document).ready(function(){
       $("div#M .type4").toggleClass("rotateAnimateSlow2");
       $("div#M").toggleClass("pause");
 
-      $("div#M div").css('background-color', '#53b5cc');
+      $("div#M div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -313,7 +313,7 @@ $(document).ready(function(){
       $("div#N .type4").toggleClass("rotateAnimateSlow2");
       $("div#N").toggleClass("pause");
 
-      $("div#N div").css('background-color', '#53b5cc');
+      $("div#N div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -335,7 +335,7 @@ $(document).ready(function(){
       $("div#O .type4").toggleClass("rotateAnimateSlow2");
       $("div#O").toggleClass("pause");
 
-      $("div#O div").css('background-color', '#53b5cc');
+      $("div#O div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -357,7 +357,7 @@ $(document).ready(function(){
       $("div#P .type4").toggleClass("rotateAnimateSlow2");
       $("div#P").toggleClass("pause");
 
-      $("div#P div").css('background-color', '#53b5cc');
+      $("div#P div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -379,7 +379,7 @@ $(document).ready(function(){
       $("div#Q .type4").toggleClass("rotateAnimateSlow2");
       $("div#Q").toggleClass("pause");
 
-      $("div#Q div").css('background-color', '#53b5cc');
+      $("div#Q div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -401,7 +401,7 @@ $(document).ready(function(){
       $("div#R .type4").toggleClass("rotateAnimateSlow2");
       $("div#R").toggleClass("pause");
 
-      $("div#R div").css('background-color', '#53b5cc');
+      $("div#R div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -423,7 +423,7 @@ $(document).ready(function(){
       $("div#S .type4").toggleClass("rotateAnimateSlow2");
       $("div#S").toggleClass("pause");
 
-      $("div#S div").css('background-color', '#53b5cc');
+      $("div#S div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -445,7 +445,7 @@ $(document).ready(function(){
       $("div#T .type4").toggleClass("rotateAnimateSlow2");
       $("div#T").toggleClass("pause");
 
-      $("div#T div").css('background-color', '#53b5cc');
+      $("div#T div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -467,7 +467,7 @@ $(document).ready(function(){
       $("div#U .type4").toggleClass("rotateAnimateSlow2");
       $("div#U").toggleClass("pause");
 
-      $("div#U div").css('background-color', '#53b5cc');
+      $("div#U div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -489,7 +489,7 @@ $(document).ready(function(){
       $("div#V .type4").toggleClass("rotateAnimateSlow2");
       $("div#V").toggleClass("pause");
 
-      $("div#V div").css('background-color', '#53b5cc');
+      $("div#V div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -511,7 +511,7 @@ $(document).ready(function(){
       $("div#W .type4").toggleClass("rotateAnimateSlow2");
       $("div#W").toggleClass("pause");
 
-      $("div#W div").css('background-color', '#53b5cc');
+      $("div#W div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -533,7 +533,7 @@ $(document).ready(function(){
       $("div#X .type4").toggleClass("rotateAnimateSlow2");
       $("div#X").toggleClass("pause");
 
-      $("div#X div").css('background-color', '#53b5cc');
+      $("div#X div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -555,7 +555,7 @@ $(document).ready(function(){
       $("div#Y .type4").toggleClass("rotateAnimateSlow2");
       $("div#Y").toggleClass("pause");
 
-      $("div#Y div").css('background-color', '#53b5cc');
+      $("div#Y div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -577,7 +577,7 @@ $(document).ready(function(){
       $("div#Z .type4").toggleClass("rotateAnimateSlow2");
       $("div#Z").toggleClass("pause");
 
-      $("div#Z div").css('background-color', '#53b5cc');
+      $("div#Z div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -599,7 +599,7 @@ $(document).ready(function(){
       $("div#zero .type4").toggleClass("rotateAnimateSlow2");
       $("div#zero").toggleClass("pause");
 
-      $("div#zero div").css('background-color', '#53b5cc');
+      $("div#zero div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -621,7 +621,7 @@ $(document).ready(function(){
       $("div#one .type4").toggleClass("rotateAnimateSlow2");
       $("div#one").toggleClass("pause");
 
-      $("div#one div").css('background-color', '#53b5cc');
+      $("div#one div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -643,7 +643,7 @@ $(document).ready(function(){
       $("div#two .type4").toggleClass("rotateAnimateSlow2");
       $("div#two").toggleClass("pause");
 
-      $("div#two div").css('background-color', '#53b5cc');
+      $("div#two div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -665,7 +665,7 @@ $(document).ready(function(){
       $("div#three .type4").toggleClass("rotateAnimateSlow2");
       $("div#three").toggleClass("pause");
 
-      $("div#three div").css('background-color', '#53b5cc');
+      $("div#three div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -687,7 +687,7 @@ $(document).ready(function(){
       $("div#four .type4").toggleClass("rotateAnimateSlow2");
       $("div#four").toggleClass("pause");
 
-      $("div#four div").css('background-color', '#53b5cc');
+      $("div#four div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -709,7 +709,7 @@ $(document).ready(function(){
       $("div#five .type4").toggleClass("rotateAnimateSlow2");
       $("div#five").toggleClass("pause");
 
-      $("div#five div").css('background-color', '#53b5cc');
+      $("div#five div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -731,7 +731,7 @@ $(document).ready(function(){
       $("div#six .type4").toggleClass("rotateAnimateSlow2");
       $("div#six").toggleClass("pause");
 
-      $("div#six div").css('background-color', '#53b5cc');
+      $("div#six div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -753,7 +753,7 @@ $(document).ready(function(){
       $("div#seven .type4").toggleClass("rotateAnimateSlow2");
       $("div#seven").toggleClass("pause");
 
-      $("div#seven div").css('background-color', '#53b5cc');
+      $("div#seven div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -775,7 +775,7 @@ $(document).ready(function(){
       $("div#eight .type4").toggleClass("rotateAnimateSlow2");
       $("div#eight").toggleClass("pause");
 
-      $("div#eight div").css('background-color', '#53b5cc');
+      $("div#eight div").css('background-color', '#5773ff');
     }, 700);
   });
 
@@ -797,7 +797,7 @@ $(document).ready(function(){
       $("div#nine .type4").toggleClass("rotateAnimateSlow2");
       $("div#nine").toggleClass("pause");
 
-      $("div#nine div").css('background-color', '#53b5cc');
+      $("div#nine div").css('background-color', '#5773ff');
     }, 700);
   });
 
