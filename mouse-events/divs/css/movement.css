@@ -21,8 +21,8 @@ div {
 .button {
   position: fixed;
   top: 15px;
-  right: -200px;
-  background-color: #12e6c8;
+  right: -20px;
+  background-color: #472faa;
   border: none;
   color: #06001e;
   padding: 7px 32px;
@@ -41,7 +41,7 @@ div {
 .button:hover {
   top: 15px;
   right: 0;
-  background-color: #5773ff;
+  background-color: #12e6c8;
   color: white;
   padding: 7px 32px;
 
