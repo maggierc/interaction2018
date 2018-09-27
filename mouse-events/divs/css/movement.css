@@ -58,6 +58,7 @@ div {
   margin: 50px 25px;
   padding: 10px;
   transform: scale(0.4);
+  cursor: pointer;
 }
 
 .letter div div {
