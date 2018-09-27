@@ -11,9 +11,9 @@ body {
 .button {
   background-color: #eee;
   display: inline-block;
-  width: 2%;
+  width: 4%;
   height: 3%;
-  padding: 2%;
+  padding: 1% 2%;
   border-radius: 10%;
   margin: 0.5%;
   text-align: center;

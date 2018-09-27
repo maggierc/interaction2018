@@ -70,3 +70,11 @@ a {
   color: #777;
   font-family: Helvetica, sans-serif;
 }
+
+.button-home:hover, .button-next:hover  {
+  background-color: #777;
+}
+
+a:hover {
+  color: #eee;
+}
