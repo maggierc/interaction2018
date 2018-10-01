@@ -79,6 +79,19 @@ html, body {
   background: #eee;
 }
 
+.button-back {
+  position: fixed;
+  top: 0;
+  left: 6.5%;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+.button-back:hover {
+  background-color: #777;
+}
+
+
 a {
   text-decoration: none;
   color: #777;
