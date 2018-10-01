@@ -1,0 +1,156 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.skrollr-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.helper {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  height: 400%;
+  width: 2%;
+  background-color: blue;
+}
+
+.marker {
+  width: 100%;
+  height: 25%;
+ }
+ /*  */
+
+.container {
+  position: fixed;
+  top: 20%;
+  left: 0%;
+  width: 100%;
+  height: 60%;
+
+}
+
+.container2 {
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  width: 100%;
+  height: 60%;
+  mix-blend-mode: screen;
+
+}
+
+.overlay {
+
+ }
+
+.object {
+   position: fixed;
+   top: 20%;
+   left: 0%;
+   width: 10%;
+   height: 60%;
+   background-color: #e14594;
+ }
+
+ .container #r2 {
+   left: 20%;
+   background-color: red;
+ }
+
+ .container #r3 {
+   left: 40%;
+   background-color: #ff9900;
+ }
+
+ .container #r4 {
+   left: 60%;
+   background-color: yellow;
+ }
+
+ .container #r5 {
+   left: 80%;
+   background-color: #53d397;
+ }
+
+.container  #r6 {
+   left: 100%;
+   background-color: #1874c3;
+ }
+
+.container  #r7 {
+   left: 120%;
+   background-color: #481380;
+ }
+
+ .container2 #r1 {
+   left: 10%;
+   background-color: #481380;
+ }
+
+ .container2 #r2 {
+   left: 30%;
+   background-color: #1874c3;
+ }
+
+ .container2 #r3 {
+   left: 50%;
+   background-color: #53d397;
+ }
+
+ .container2 #r4 {
+   left: 70%;
+   background-color: yellow;
+ }
+
+ .container2 #r5 {
+   left: 90%;
+   background-color: #ff9900;
+ }
+
+.container2  #r6 {
+   left: 110%;
+   background-color: red;
+ }
+
+.container2  #r7 {
+   left: 130%;
+   background-color: #e14594;
+ }
+
+
+
+ /*  */
+.button-next {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+.button-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+  font-family: Helvetica, sans-serif;
+}
+
+.button-home:hover, .button-next:hover  {
+  background-color: #777;
+}
+
+a:hover {
+  color: #eee;
+}

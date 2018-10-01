@@ -25,28 +25,62 @@ html, body {
  }
  /*  */
 
-body{
-  background-color: black;
+body {
+  background-color: #ff3434;
 }
-
-.container {
-  position: fixed;
-  top: 20%;
-  left: 25%;
-  width: 40%;
-  height: 60%;
-  background-color: black;
-}
-
 
 .object {
    position: fixed;
-   top: 25%;
-   left: 30%;
-   width: 30%;
-   height: 50%;
-   border-radius: 100%;
+   width: 33.3%;
+   height: 33.3%;
+   background-color: #0c317a;
  }
+
+#r1 {
+  top: 0%;
+  left: 0%;
+}
+
+#r2 {
+  top: 0%;
+  left: 33.3%;
+}
+
+#r3 {
+  top: 0%;
+  left: 66.6%;
+
+}
+
+#r4 {
+  top: 33.3%;
+  left: 0%;
+}
+
+#r5 {
+  top: 33.3%;
+  left: 33.3%;
+}
+
+#r6 {
+  top: 33.3%;
+  left: 66.6%;
+}
+
+#r7 {
+  top: 66.6%;
+  left: 0%;
+}
+
+#r8 {
+  top: 66.6%;
+  left: 33.3%;
+}
+
+#r9 {
+  top: 66.6%;
+  left: 66.6%;
+}
 
 
 

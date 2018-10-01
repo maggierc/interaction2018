@@ -25,27 +25,27 @@ html, body {
  }
  /*  */
 
-body{
-  background-color: black;
-}
-
-.container {
-  position: fixed;
-  top: 20%;
-  left: 25%;
-  width: 40%;
-  height: 60%;
-  background-color: black;
-}
-
+ body {
+   background-color: #8AACFF;
+ }
 
 .object {
    position: fixed;
-   top: 25%;
-   left: 30%;
-   width: 30%;
-   height: 50%;
-   border-radius: 100%;
+   top: 33.3%;
+   left: 33.3%;
+   width: 33.3%;
+   height: 33.3%;
+   mix-blend-mode: color-dodge;
+   /* border: 5px solid black; */
+   /* background-color: #ff3434; */
+ }
+
+ #r1 {
+   background-color: #626FE6;
+ }
+
+ #r2 {
+   background-color: #6D42C7;
  }
 
 

@@ -46,6 +46,24 @@ body{
    width: 30%;
    height: 50%;
    border-radius: 100%;
+   border: 1px solid white;
+ }
+
+ #smallcirc1 {
+   top: 5%;
+   left: 60%;
+   width: 10%;
+   height: 20%;
+
+ }
+
+
+ #smallcirc2 {
+   top: 55%;
+   left: 10%;
+   width: 10%;
+   height: 20%;
+
  }
 
 
