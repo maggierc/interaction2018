@@ -19,10 +19,21 @@ body {
   text-align: center;
 }
 
+.new {
+  background-color: #B0DEDB;
+}
+
+
 a {
   text-decoration: none;
   font-size: 28px;
   color: #666;
+}
+
+a.new {
+  text-decoration: none;
+  font-size: 28px;
+  color: #1B5A7A;
 }
 
 .button:hover {
@@ -31,4 +42,12 @@ a {
 
 a:hover {
   color: #eee;
+}
+
+a.new:hover {
+  color: #eee;
+}
+
+.new:hover {
+  background-color: #FC6E5E;
 }
