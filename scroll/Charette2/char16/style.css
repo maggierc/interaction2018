@@ -1,0 +1,153 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.skrollr-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.helper {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  height: 400%;
+  width: 2%;
+  background-color: blue;
+}
+
+.marker {
+  width: 100%;
+  height: 25%;
+ }
+ /*  */
+
+.backgroundIMG {
+  background: linear-gradient(142deg, #29e9b8, #29b0e9, #e929aa, #faf230);
+  position: fixed;
+  width: 800%;
+  height: 800%;
+  top: -100%;
+  left: -100%;
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 9s ease infinite;
+  -moz-animation: AnimationName 9s ease infinite;
+  animation: AnimationName 9s ease infinite;
+}
+
+ img#one {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   top: 0%;
+   left: 0%;
+ }
+
+ img#two {
+   position: fixed;
+   height: 50%;
+   width: 50%;
+   top: 25%;
+   left: 25%;
+ }
+
+.circle {
+  position: fixed;
+  height: 400px;
+  width: 400px;
+  top: 20%;
+  left: 33.25%;
+  background-color: black;
+  /* border-radius: 100%; */
+}
+
+.object {
+   position: fixed;
+   top: 15%;
+   left: 25%;
+   width: 20%;
+   height: 30%;
+   border-radius: 100%;
+ }
+
+ #c1 {
+   box-shadow: 0px 0px 100px cyan;
+ }
+
+ #c2 {
+   box-shadow: 0px 0px 100px magenta;
+ }
+
+ #c3 {
+   box-shadow: 0px 0px 100px yellow;
+ }
+
+ #c4 {
+   box-shadow: 0px 0px 100px magenta;
+ }
+
+
+ @-webkit-keyframes AnimationName {
+     0%{background-position:66% 0%}
+     50%{background-position:35% 100%}
+     100%{background-position:66% 0%}
+ }
+ @-moz-keyframes AnimationName {
+     0%{background-position:66% 0%}
+     50%{background-position:35% 100%}
+     100%{background-position:66% 0%}
+ }
+ @keyframes AnimationName {
+     0%{background-position:66% 0%}
+     50%{background-position:35% 100%}
+     100%{background-position:66% 0%}
+ }
+
+
+
+ /*  */
+.button-next {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+.button-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+.button-back {
+  position: fixed;
+  top: 0;
+  left: 6.5%;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+.button-back:hover {
+  background-color: #777;
+}
+
+
+a {
+  text-decoration: none;
+  color: #777;
+  font-family: Helvetica, sans-serif;
+}
+
+.button-home:hover, .button-next:hover  {
+  background-color: #777;
+}
+
+a:hover {
+  color: #eee;
+}
