@@ -1,0 +1,117 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.skrollr-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.helper {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  height: 400%;
+  width: 2%;
+  background-color: blue;
+}
+
+.marker {
+  width: 100%;
+  height: 25%;
+ }
+ /*  */
+
+body{
+  background-color: #9CD9DE;
+}
+
+.object {
+   position: fixed;
+   top: 35%;
+   left: 25%;
+   width: 10%;
+   height: 30%;
+   border-radius: 100%;
+   border: 2.5px solid #fff;
+   border-top: none;
+ }
+
+.circle {
+  /* transition: 2s; */
+  width: 90px;
+  height: 90px;
+  border: none;
+  background-color: #9CD9DE;
+  top: 43.25%;
+  left: 46.25%;
+}
+
+.white {
+  background-color: #fff;
+
+}
+
+#one {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  animation: spin 20s linear infinite;
+
+}
+
+@keyframes spin {
+  0%{transform:rotate(0deg)}
+  50%{transform:rotate(90deg)}
+  100%{transform:rotate(180deg)}
+}
+
+
+ /*  */
+.button-next {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+.button-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+.button-back {
+  position: fixed;
+  top: 0;
+  left: 6.5%;
+  padding: 0.5% 1%;
+  background: #eee;
+}
+
+.button-back:hover {
+  background-color: #777;
+}
+
+
+a {
+  text-decoration: none;
+  color: #777;
+  font-family: Helvetica, sans-serif;
+}
+
+.button-home:hover, .button-next:hover  {
+  background-color: #777;
+}
+
+a:hover {
+  color: #eee;
+}
