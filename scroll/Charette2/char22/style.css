@@ -70,7 +70,7 @@ body{
   left: -50%;
   width: 200%;
   height: 200%;
-  animation: spin 10s linear infinite;
+  animation: turn 10s ease infinite;
 
 }
 
@@ -84,6 +84,12 @@ body{
 }
 
 @keyframes spin {
+  0%{transform:rotate(0deg)}
+  50%{transform:rotate(90deg)}
+  100%{transform:rotate(180deg)}
+}
+
+@keyframes turn {
   0%{transform:skew(0deg,0deg)}
   25%{transform:skew(180deg,0deg)}
   50%{transform:skew(0deg,90deg)}
@@ -102,7 +108,7 @@ body{
   height: 100%;
   top: 0%;
   left: 0%;
-  background-color: #FFDD67;
+  background-color: #aeddf2;
 }
 
 
