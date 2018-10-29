@@ -26,7 +26,7 @@ html, body {
  /*  */
 
 body{
-  background-color: #11999E;
+  background-color: #000;
 }
 
 .object {
@@ -47,6 +47,8 @@ body{
   background-color: #11999E;
   top: 43.25%;
   left: 46.25%;
+  animation: blackToColor 20s linear infinite;
+
   /* for mobile
   top: 47.5%;
     left: 45.5%; */
@@ -54,6 +56,7 @@ body{
 
 .white {
   background-color: #fff;
+  animation: whitetoColor 20s linear infinite;
 
 }
 
@@ -72,7 +75,7 @@ body{
   left: 0%;
   width: 100%;
   height: 100%;
-  animation: spin 5s ease infinite;
+  animation: spin 5s linear infinite;
 }
 
 @keyframes spin {
@@ -89,43 +92,23 @@ body{
   100%{transform:skew(0deg,0deg)}
 }
 
-#c-outline {
-  background-color: none;
-  border: 1.5px solid #fff;
+@keyframes blackToColor {
+  0%{background-color:rgb(255,255,255);}
+  25%{background-color:rgb(255,255,255);}
+  33%{background-color:rgb(0, 255, 203);}
+  65%{background-color:rgb(255, 250, 0);}
+  80%{background-color:rgb(255, 0, 55);}
+  100%{background-color:rgb(255,255,255);}
 }
 
-
-#thirdS-background {
-  width: 100%;
-  height: 100%;
-  top: 0%;
-  left: 0%;
-  background-color: #aeddf2;
+@keyframes whitetoColor {
+  0%{background-color:rgb(0,0,0);}
+  25%{background-color:rgb(0,0,0);}
+  33%{background-color:rgb(160, 255, 236);}
+  65%{background-color:rgb(255, 252, 132);}
+  80%{background-color:rgb(255, 99, 133);}
+  100%{background-color:rgb(0,0,0);}
 }
-
-
-#thirdS-background1, #thirdS-background2 {
-  width: 100%;
-  height: 50%;
-  position: fixed;
-  background-color: #666;
-}
-
-#thirdS-background1 {
-  top: 0%;
-  left: 0%;
-}
-
-#thirdS-background2 {
-  bottom: 0%;
-  left: 0%;
-}
-
-
-
-
-
-
 
 
 
