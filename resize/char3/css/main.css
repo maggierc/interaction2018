@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'LarishNeueSemibold';
+    src: url('fonts/LarishNeueSemibold-Regular.otf');
+}
+
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color: #2a363b;
+	font-family:'LarishNeueSemibold', serif;
+
+}
+
+.box{
+	position:absolute;
+	width:90%;
+	height:90%;
+	top:5%;
+	left:5%;
+	color: #ff6464;
+  overflow: hidden;
+}
+
+
+
+@media (max-width: 1400px) {
+	span#span1{
+    color: #2a363b;
+  }
+  span#span4{
+    color: #2a363b;
+  }
+}
+
+@media (max-width: 1375px) {
+	.box{
+	}
+}
+@media (max-width: 1350px) {
+  span#span1{
+    color: #ff6464;
+  }
+}
+
+@media (max-width: 1325px) {
+	.box{
+	}
+}
+
+@media (max-width: 1300px) {
+	.box{
+	}
+}
+
+@media (max-width: 1275px) {
+	.box{
+	}
+}
+
+@media (max-width: 1250px) {
+	.box{
+	}
+}
+
+@media (max-width: 1225px) {
+	.box{
+	}
+}
+
+@media (max-width: 1200px) {
+  span#span5{
+    color: #2a363b;
+  }
+  span#span1{
+    color: #ff6464;
+  }
+}
+
+@media (max-width: 1175px) {
+	.box{
+	}
+}
+
+@media (max-width: 1150px) {
+  span#span2{
+    color: #2a363b;
+  }
+}
+
+@media (max-width: 1125px) {
+	.box{
+	}
+}
+
+@media (max-width: 1100px) {
+	.box{
+	}
+}
+
+@media (max-width: 1075px) {
+	.box{
+	}
+}
+
+@media (max-width: 1050px) {
+	.box{
+	}
+}
+
+@media (max-width: 1250px) {
+  span#span6{
+    color: #2a363b;
+  }
+  span#span1{
+    color: #2a363b;
+  }
+}
+
+@media (max-width: 1025px) {
+	.box{
+	}
+}
+
+@media (max-width: 1000px) {
+  span#span2{
+    color: #ff6464;
+  }
+}
+
+@media (max-width: 975px) {
+	.box{
+	}
+}
+@media (max-width: 950px) {
+	.box{
+	}
+}
+
+@media (max-width: 925px) {
+  span#span3{
+    color: #2a363b;
+  }
+  span#span2{
+    color: #2a363b;
+  }
+}
+
+@media (max-width: 900px) {
+	.box{
+	}
+}
+
+@media (max-width: 875px) {
+  span#span4{
+    color: #ff6464;
+  }
+}
+
+@media (max-width: 850px) {
+  span#span3{
+    color: #ff6464;
+  }
+}
+
+@media (max-width: 825px) {
+	.box{
+	}
+}
+
+@media (max-width: 800px) {
+  span#span6{
+    color: #2a363b;
+  }
+}
+
+@media (max-width: 775px) {
+	.box{
+	}
+}
+
+@media (max-width: 750px) {
+  span#span5{
+    color: #2a363b;
+  }
+}
+
+@media (max-width: 725px) {
+	.box{
+	}
+}
+
+@media (max-width: 700px) {
+	.box{
+	}
+}
+
+@media (max-width: 675px) {
+  span#span6{
+    color: #ff6464;
+  }
+}
+
+@media (max-width: 650px) {
+  span#span4{
+    color: #2a363b;
+  }
+}
+@media (max-width: 625px) {
+  span#span1{
+    color: #ff6464;
+  }
+  span#span2{
+    color: #ff6464;
+  }
+}
+
+@media (max-width: 600px) {
+	.box{
+	}
+}
+
+@media (max-width: 575px) {
+	.box{
+	}
+}
+
+@media (max-width: 550px) {
+  span#span3{
+    color: #ff6464;
+  }
+}
+
+@media (max-width: 525px) {
+  span#span1{
+    color: #2a363b;
+  }
+}
+
+@media (max-width: 500px) {
+	.box{
+	}
+}
+
+@media (max-width: 475px) {
+	.box{
+	}
+}
+
+@media (max-width: 450px) {
+	.box{
+	}
+}
+
+@media (max-width: 425px) {
+  span#span5{
+    color: #2a363b;
+  }
+}
+
+@media (max-width: 400px) {
+  span#span6{
+    color: #ff6464;
+  }
+}
+
+
+
+/* Navigation Styling */
+
+div.navigation {
+  position: fixed;
+  bottom: 0;
+  left: 40%;
+  width: 200px;
+  height: 35px;
+  margin: auto;
+  background-color: black;
+  opacity: 0.2;
+}
+
+
+.button-next {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  width: 25%;
+  text-align: center;
+}
+
+.button-home {
+  position: absolute;
+  top: 8px;
+  right: 72px;
+  width: 25%;
+  text-align: center;
+}
+
+.button-back {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 25%;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: #777;
+  font-family: Helvetica, sans-serif;
+}
+
+
+a:hover {
+  color: #eee;
+}
+
+
+div.navigation:hover {
+  opacity: 1;
+
+}
