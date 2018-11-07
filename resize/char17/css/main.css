@@ -9,32 +9,51 @@
 	height:100%;
 	top:0;
 	left:0;
-	font-family: "LarishNeueSemibold", serif;
-	background-color: #B9BC6D;
+	background-color: #1F4E5F;
+  color: #AACFD0;
+	font-family:'LarishNeueSemibold', serif;
 
 }
 
 .box{
 	position:absolute;
-	width:50%;
-	height:50%;
-	top:25%;
-	left:25%;
-  transition: 0.1s;
-  color: #fefefe;
+	width:30%;
+	height:30%;
+	top:35%;
+	left:35%;
+	color: #fff;
+	text-align: center;
 }
 
 p {
-  top: 0;
-  left: 0;
-  font-size: 20px;
+	font-size: 40px;
+  padding: 1%;
 }
 
+.addcontainer {
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  font-family:'LarishNeueSemibold', serif;
+}
+div.addedbox {
+  display: block;
+  position: relative;
+  width: 5%;
+  height: 5%;
+  top: 0;
+  left: 0;
+  float: left;
+  background-color: red;
+}
 
 
 
 @media (max-width: 1400px) {
 	.box{
+
 	}
 }
 
@@ -49,6 +68,7 @@ p {
 
 @media (max-width: 1325px) {
 	.box{
+		color: red;
 	}
 }
 
@@ -58,8 +78,7 @@ p {
 }
 
 @media (max-width: 1275px) {
-	.name3{
-    letter-spacing: -0.06em;
+	.box{
 	}
 }
 
@@ -74,9 +93,8 @@ p {
 }
 
 @media (max-width: 1200px) {
-	.name3 {
-    letter-spacing: -0.05em;
-  }
+	.box{
+	}
 }
 
 @media (max-width: 1175px) {
@@ -86,13 +104,14 @@ p {
 
 @media (max-width: 1150px) {
 	.box{
+		color: black;
+
 	}
 }
 
 @media (max-width: 1125px) {
-	#par3 {
-    letter-spacing: -0.02em;
-  }
+	.box{
+	}
 }
 
 @media (max-width: 1100px) {
@@ -112,6 +131,7 @@ p {
 
 @media (max-width: 1250px) {
 	.box{
+		color: white;
 	}
 }
 
@@ -121,13 +141,13 @@ p {
 }
 
 @media (max-width: 1000px) {
-	.name1{
-    letter-spacing: -0.03em;
+	.box{
 	}
 }
 
 @media (max-width: 975px) {
 	.box{
+		color: cyan;
 	}
 }
 @media (max-width: 950px) {
@@ -136,9 +156,8 @@ p {
 }
 
 @media (max-width: 925px) {
-  #par1, #par2, #par3 {
-    letter-spacing: -.1em;
-  }
+	.box{
+	}
 }
 
 @media (max-width: 900px) {
@@ -162,7 +181,8 @@ p {
 }
 
 @media (max-width: 800px) {
-
+	.box{
+	}
 }
 
 @media (max-width: 775px) {
@@ -171,9 +191,8 @@ p {
 }
 
 @media (max-width: 750px) {
-	.name4, .name5{
-    letter-spacing: -0.9em;
-  }
+	.box{
+	}
 }
 
 @media (max-width: 725px) {
@@ -201,9 +220,8 @@ p {
 }
 
 @media (max-width: 600px) {
-	.name6, .name7 {
-    letter-spacing: -0.8em;
-  }
+	.box{
+	}
 }
 
 @media (max-width: 575px) {
@@ -217,9 +235,8 @@ p {
 }
 
 @media (max-width: 525px) {
-	.name1, .name3 {
-    letter-spacing: -0.9em;
-  }
+	.box{
+	}
 }
 
 @media (max-width: 500px) {
@@ -243,9 +260,8 @@ p {
 }
 
 @media (max-width: 400px) {
-  #par1, #par2, #par3 {
-    letter-spacing: -2em;
-  }
+	.box{
+	}
 }
 
 
