@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'LarishNeueSemibold';
+    src: url('fonts/LarishNeueSemibold-Regular.otf');
+}
+
+body {
+  background-color: #333644;
+
+}
+
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	font-family: "LarishNeueSemibold", serif;
+	background-color: #333644;
+  overflow: hidden;
+
+}
+
+.box{
+	position:relative;
+	width:1300px;
+	height:700px;
+	top:0%;
+	left:0%;
+  transition: 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+
+p {
+  display: block;
+  position: absolute;
+  font-size: 5em;
+  transition: 0.3s ease-out;
+  color: #70ACB1;
+  top: 5%;
+  left: 5%;
+  filter: blur(20px);
+}
+
+.indicator {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  filter: blur(0.5px);
+  color: #fff;
+}
+
+#par1-indicator {
+  top: 323px;
+  left: 657px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+#par2-indicator {
+  top: 380px;
+  left: 385px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+#par3-indicator {
+  top: 155px;
+  left: 990px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+
+
+@media (max-width: 700px) and (max-height: 500px){
+	#par1{
+    filter: blur(0px);
+	}
+}
+
+@media (max-width: 680px) and (max-height: 480px){
+	#par1{
+    filter: blur(20px);
+	}
+}
+
+@media (max-width: 440px) and (max-height: 550px){
+	#par2{
+    filter: blur(0px);
+	}
+}
+
+@media (max-width: 420px) and (max-height: 550px){
+	#par2{
+    filter: blur(20px);
+	}
+}
+
+@media (max-width: 1050px) and (max-height: 300px){
+	#par3{
+    filter: blur(0px);
+	}
+}
+
+@media (max-width: 1030px) and (max-height: 280px){
+	#par3{
+    filter: blur(20px);
+	}
+}
+
+/* Navigation Styling */
+
+div.navigation {
+  position: fixed;
+  bottom: 0;
+  left: 40%;
+  width: 200px;
+  height: 35px;
+  margin: auto;
+  background-color: black;
+  opacity: 0.2;
+}
+
+
+.button-next {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  width: 25%;
+  text-align: center;
+}
+
+.button-home {
+  position: absolute;
+  top: 8px;
+  right: 72px;
+  width: 25%;
+  text-align: center;
+}
+
+.button-back {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 25%;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: #777;
+  font-family: Helvetica, sans-serif;
+}
+
+
+a:hover {
+  color: #eee;
+}
+
+
+div.navigation:hover {
+  opacity: 1;
+
+}

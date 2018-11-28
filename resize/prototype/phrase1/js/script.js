@@ -6,8 +6,10 @@ $(document).ready(function() {
 	});
 
 	$('div > p').hover(function(){
-		// $('.box').css('opacity','0');
-		window.location.replace("../char25/index.html");
+		$('body').css('opacity','0');
+		setTimeout(function () {
+			window.location.replace("../phrase2/index.html");
+		},2000);
 	});
 
 
